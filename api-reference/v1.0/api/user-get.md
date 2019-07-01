@@ -24,13 +24,13 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 For a specific user:
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET /users/{id | userPrincipalName}
 ```
 
 For the signed-in user:
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET /me
 ```
 
@@ -63,7 +63,7 @@ This method returns `202 Accepted` when the request has been processed successfu
 By default, only a limited set of properties are returned ( _businessPhones, displayName, givenName, id, jobTitle, mail, mobilePhone, officeLocation, preferredLanguage, surname, userPrincipalName_ ). This example illustrates the default request and response. 
 
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/users/{id | userPrincipalName}
 ```
 
@@ -103,7 +103,7 @@ You can get the user information for the signed-in user by replacing `/users/{id
   "blockType": "request",
   "name": "get_user"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me
 ```
 ##### Response
@@ -153,7 +153,7 @@ If you need a different property set, you can use the OData `$select` query para
 
 ##### Request
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/users/{id | userPrincipalName}?$select=displayName,givenName,postalCode
 ```
 ##### Response
