@@ -54,7 +54,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_plannerassignedtotaskboardtaskformat"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/planner/tasks/01gzSlKkIUSUl6DF_EilrmQAKDhh/assignedToTaskBoardFormat
 Content-type: application/json
 Content-length: 96

@@ -65,7 +65,7 @@ The following request moves the specified message to the Deleted Items folder, i
   "name": "message_move"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/messages/AAMkADhAAATs28OAAA=/move
 Content-type: application/json
 

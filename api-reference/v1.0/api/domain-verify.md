@@ -54,7 +54,7 @@ If successful, this method returns `200 OK` response code and [domain](../resour
   "blockType": "request",
   "name": "domain_verify"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/domains/{domain-name}/verify
 ```
 # [C#](#tab/csharp)

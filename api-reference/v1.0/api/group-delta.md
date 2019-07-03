@@ -107,7 +107,7 @@ The following is an example of the request. There is no `$select` parameter, so 
   "name": "group_delta"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/groups/delta
 ```
 # [C#](#tab/csharp)
@@ -181,7 +181,7 @@ The next example shows the initial request selecting 3 properties for change tra
   "name": "group_delta"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/groups/delta?$select=displayName,description,mailNickname
 ```
 # [C#](#tab/csharp)

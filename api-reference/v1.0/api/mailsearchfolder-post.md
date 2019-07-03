@@ -67,7 +67,7 @@ The following is an example of the request - it creates a search folder of messa
   "name": "create_mailsearchfolder"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/mailfolders/AQMkADYAAAIBDAAAAA==/childfolders
 Content-type: application/json
 Content-length: 159

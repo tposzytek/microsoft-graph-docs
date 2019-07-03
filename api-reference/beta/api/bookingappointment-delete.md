@@ -47,7 +47,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "delete_bookingappointment"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/bookingBusinesses/Contosolunchdelivery@M365B489948.onmicrosoft.com/appointments/AAMkADKqAAA=
 ```
 # [C#](#tab/csharp)

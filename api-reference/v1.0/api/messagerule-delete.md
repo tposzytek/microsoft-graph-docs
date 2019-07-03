@@ -49,7 +49,7 @@ Here is an example of the request.
   "sampleKeys": ["inbox", "AQAAAJ5dZp8="],
   "name": "delete_messagerule"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules/AQAAAJ5dZp8=
 
 ```

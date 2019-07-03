@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_conversationthread"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/groups/{id}/threads/{id}
 Content-type: application/json
 Content-length: 419

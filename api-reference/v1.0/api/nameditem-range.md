@@ -45,7 +45,7 @@ Here is an example of the request.
   "idempotent": true,
   "name": "nameditem_range"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/names/{name}/range
 ```
 # [C#](#tab/csharp)

@@ -55,7 +55,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "synchronizationschema_parseexpression"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{id}/schema/parseExpression
 Content-type: application/json
 

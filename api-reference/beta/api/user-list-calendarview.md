@@ -78,7 +78,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_calendarview"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/calendarView?startDateTime=2016-01-01T19:00:00.0000000&endDateTime=2016-10-01T19:00:00.0000000
 ```
 # [C#](#tab/csharp)

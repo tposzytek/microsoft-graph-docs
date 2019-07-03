@@ -56,7 +56,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "cancel_privilegedRoleAssignmentRequests"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedRoleAssignmentRequests/7c53453e-d5a4-41e0-8eb1-32d5ec8bfdee/cancel
 ```
 # [C#](#tab/csharp)

@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_outlooktaskfolder"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/outlook/taskFolders/AAMkADIyAAAhrbPXAAA=
 ```
 # [C#](#tab/csharp)

@@ -48,7 +48,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "educationassignment_publish"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/education/classes/11021/assignments/19002/publish
 ```
 # [C#](#tab/csharp)

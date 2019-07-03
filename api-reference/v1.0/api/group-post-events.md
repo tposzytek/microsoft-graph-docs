@@ -46,7 +46,7 @@ The following is an example of the request.
   "sampleKeys": ["01d4ee64-15ce-491e-bad1-b91aa3223df4"],
   "name": "create_event_from_group"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/01d4ee64-15ce-491e-bad1-b91aa3223df4/events
 Content-type: application/json
 

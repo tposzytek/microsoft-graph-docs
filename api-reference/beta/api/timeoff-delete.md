@@ -57,7 +57,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "timeoff-delete"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/teams/{teamId}/schedule/timesOff/{timeOffId}
 ```
 # [C#](#tab/csharp)

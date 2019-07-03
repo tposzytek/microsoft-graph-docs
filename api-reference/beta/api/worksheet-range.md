@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "worksheet_range"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/Range
 Content-type: application/json
 Content-length: 32

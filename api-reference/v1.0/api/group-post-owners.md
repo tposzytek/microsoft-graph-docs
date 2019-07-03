@@ -45,7 +45,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_directoryobject_from_group"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/{id}/owners/$ref
 Content-type: application/json
 Content-length: 30

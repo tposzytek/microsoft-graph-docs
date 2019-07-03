@@ -61,7 +61,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "section_copytonotebook"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/onenote/sections/{id}/copyToNotebook
 Content-type: application/json
 Content-length: 84

@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_conversationthread_from_conversation"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/{id}/conversations/{id}/threads
 Content-type: application/json
 

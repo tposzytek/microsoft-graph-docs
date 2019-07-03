@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "orgcontact_getmemberobjects"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/contacts/{id}/getMemberObjects
 Content-type: application/json
 Content-length: 33

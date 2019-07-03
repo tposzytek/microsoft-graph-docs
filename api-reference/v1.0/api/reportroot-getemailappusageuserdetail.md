@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "samples" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getEmailAppUsageUserDetail(period='{period_value}')
 GET /reports/getEmailAppUsageUserDetail(date={date_value})
 ```
@@ -88,7 +88,7 @@ The following is an example of the request.
   "name": "reportroot_getemailappusageuserdetail"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getEmailAppUsageUserDetail(period='D7')
 ```
 # [C#](#tab/csharp)

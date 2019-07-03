@@ -54,7 +54,7 @@ In the request body, supply a JSON representation of the [program](../resources/
   "blockType": "request",
   "name": "create_program_from_programs"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/programs
 Content-type: application/json
 

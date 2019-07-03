@@ -61,7 +61,7 @@ If successful, this method returns `200 OK` response code and [directoryObject](
   "blockType": "request",
   "name": "create_directoryobject_from_directory"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/directory/deletedItems/{object-id}/restore
 ```
 # [C#](#tab/csharp)

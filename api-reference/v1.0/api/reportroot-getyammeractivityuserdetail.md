@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getYammerActivityUserDetail(period='{period_value}')
 GET /reports/getYammerActivityUserDetail(date={date_value})
 ```
@@ -83,7 +83,7 @@ The following is an example of the request.
   "name": "reportroot_getyammeractivityuserdetail"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getYammerActivityUserDetail(period='D7')
 ```
 # [C#](#tab/csharp)

@@ -69,7 +69,7 @@ Here is an example of the request.
   "name": "update_subscription"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/subscriptions/{id}
 Content-type: application/json
 

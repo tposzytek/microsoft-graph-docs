@@ -46,7 +46,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "post_synchronizationProfile_pause"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/education/synchronizationProfiles/{id}/pause
 ```
 # [C#](#tab/csharp)

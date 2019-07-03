@@ -68,7 +68,7 @@ Here is an example of the request to send a notification when the user receives 
   "name": "create_subscription_from_subscriptions"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/subscriptions
 Content-type: application/json
 

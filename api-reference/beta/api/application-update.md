@@ -66,7 +66,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_application"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/applications/{id}
 Content-type: application/json
 Content-length: 72

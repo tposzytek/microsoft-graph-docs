@@ -52,7 +52,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "create-audioRoutingGroup-from-call"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls/{id}/audioRoutingGroups
 Content-Type: application/json
 Content-Length: 233

@@ -52,7 +52,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "update_synchronizationschema"
 }-->
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{jobId}/schema
 Content-type: application/json
 

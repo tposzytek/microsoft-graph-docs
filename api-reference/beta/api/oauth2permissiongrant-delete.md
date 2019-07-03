@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_oAuth2Permissiongrant"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/oAuth2Permissiongrants/{id}
 ```
 # [C#](#tab/csharp)

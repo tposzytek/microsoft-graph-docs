@@ -65,7 +65,7 @@ In the request body, supply a JSON representation of [event](../resources/event.
   "sampleKeys": ["AAMkAGViNDU7zAAAAAGtlAAA="],
   "name": "create_event_from_calendar"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/calendars/AAMkAGViNDU7zAAAAAGtlAAA=/events
 Content-type: application/json
 

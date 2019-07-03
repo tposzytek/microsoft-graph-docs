@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "patch_channel"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/teams/{id}/channels/{id}
 ```
 # [Objective-C](#tab/objc)

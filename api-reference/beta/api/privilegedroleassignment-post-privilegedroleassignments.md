@@ -47,7 +47,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_privilegedroleassignment_from_privilegedroleassignments"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedRoleAssignments
 Content-type: application/json
 Content-length: 164

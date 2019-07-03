@@ -97,7 +97,7 @@ The following example updates the personal email address of the specified contac
   "blockType": "request",
   "name": "update_contact"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/contacts/AAMkADh6v5AAAvgTCEAAA=
 Content-type: application/json
 

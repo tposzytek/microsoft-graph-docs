@@ -54,7 +54,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "bookingappointment_cancel"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/bookingBusinesses/Contosolunchdelivery@M365B489948.onmicrosoft.com/appointments/AAMkADKoAAA=/cancel
 Content-type: application/json
 

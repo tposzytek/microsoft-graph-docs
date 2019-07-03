@@ -66,7 +66,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "team-put-schedule"
 }-->
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/beta/teams/{teamId}/schedule
 Content-type: application/json
 

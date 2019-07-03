@@ -54,7 +54,7 @@ The following example changes the name of the specified task folder to `Charity 
   "blockType": "request",
   "name": "update_outlooktaskfolder"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/outlook/taskFolders/AAMkADIyAAAhrbPWAAA=
 Content-type: application/json
 Content-length: 31

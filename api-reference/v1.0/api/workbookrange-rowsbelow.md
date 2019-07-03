@@ -23,7 +23,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 POST /me/drive/root/workbook/worksheets/{id}/range/rowsBelow(count=n)
 
 ```
@@ -56,7 +56,7 @@ Here is an example of the request.
   "name": "workbookrange_rowsBelow",
   "idempotent": true
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/drive/root/workbook/worksheets/{id}/range/rowsBelow(count=2)
 ```
 # [C#](#tab/csharp)
@@ -83,7 +83,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "truncated": true,
   "@odata.type": "microsoft.graph.workbookRange"
 } -->
-```http
+```msgraph-interactive
 HTTP/1.1 200 OK
 Content-type: application/json
 Content-length: 157
@@ -108,7 +108,7 @@ Here is an example of the request.
   "name": "workbookrange_rowsBelow_nocount",
   "idempotent": true
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/root/workbook/worksheets/{id}/range/rowsBelow
 ```
 # [C#](#tab/csharp)

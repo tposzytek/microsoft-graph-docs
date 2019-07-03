@@ -66,7 +66,7 @@ The following is an example of the request.
   "name": "securescorecontrolprofiles_update"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/security/secureScoreControlProfiles/NonOwnerAccess
 Content-type: application/json
 

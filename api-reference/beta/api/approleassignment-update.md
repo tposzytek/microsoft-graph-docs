@@ -55,7 +55,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_approleassignment"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/appRoleAssignments/{id}
 Content-type: application/json
 Content-length: 233

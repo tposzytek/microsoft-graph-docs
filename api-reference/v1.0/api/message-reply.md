@@ -54,7 +54,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "message_reply"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/messages/{id}/reply
 Content-type: application/json
 Content-length: 32

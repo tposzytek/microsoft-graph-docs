@@ -127,7 +127,7 @@ Here is the example request.
   "blockType": "request",
   "name": "user_findmeetingtimes"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/findMeetingTimes
 Prefer: outlook.timezone="Pacific Standard Time"
 Content-Type: application/json

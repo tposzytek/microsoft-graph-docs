@@ -46,7 +46,7 @@ If successful, this method returns a `200 OK` response code and an updated [agre
   "blockType": "request",
   "name": "update_agreement"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/agreements/<id>
 Content-type: application/json
 Content-length: 85

@@ -62,7 +62,7 @@ Here is an example of the request that changes the role on the sharing permissio
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "update-permission", "@odata.type": "microsoft.graph.permission", "scopes": "files.readwrite", "tags": "service.graph" } -->
 
-```http
+```msgraph-interactive
 PATCH /me/drive/items/{item-id}/permissions/{perm-id}
 Content-type: application/json
 

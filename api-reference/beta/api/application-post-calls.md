@@ -58,7 +58,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "create-call-from-application"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls
 Content-Type: application/json
 

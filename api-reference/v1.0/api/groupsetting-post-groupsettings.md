@@ -54,7 +54,7 @@ If successful, this method returns `201 Created` response code and [groupSetting
   "blockType": "request",
   "name": "create_groupsetting_from_groupsettings"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groupSettings
 Content-type: application/json
 Content-length: 215

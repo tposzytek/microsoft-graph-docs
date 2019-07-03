@@ -58,7 +58,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_eventmessage"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/messages/{id}
 Content-type: application/json
 Content-length: 248

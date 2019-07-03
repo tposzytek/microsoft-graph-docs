@@ -46,7 +46,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_childfolders"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/contactFolders/{id}/childFolders
 ```
 # [C#](#tab/csharp)

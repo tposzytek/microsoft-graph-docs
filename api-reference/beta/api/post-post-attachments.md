@@ -61,7 +61,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_file_attachment_from_post"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/{id}/threads/{id}/posts/{id}/attachments
 Content-type: application/json
 Content-length: 142

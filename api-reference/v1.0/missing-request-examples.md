@@ -15,7 +15,7 @@ tool was able to properly handle the Graph docs.
 
 # [HTTP](#tab/http)
 <!-- {"blockType": "request", "name": "get_current_user" } -->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me
 ```
 # [C#](#tab/csharp)
@@ -47,7 +47,7 @@ Content-Type: application/json
 
 # [HTTP](#tab/http)
 <!-- {"blockType": "request", "name": "get_drive_from_id" } -->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/drives/{drive-id}
 ```
 # [C#](#tab/csharp)
@@ -80,7 +80,7 @@ Content-Type: application/json
 
 # [HTTP](#tab/http)
 <!-- {"blockType": "request", "name": "get_users" } -->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/users/{user-id}
 ```
 # [C#](#tab/csharp)

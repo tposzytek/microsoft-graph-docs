@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "tablecolumn_range"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/{id|name}/columns/{id|name}/Range
 ```
 # [C#](#tab/csharp)

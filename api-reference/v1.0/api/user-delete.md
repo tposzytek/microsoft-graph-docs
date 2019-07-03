@@ -54,7 +54,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_user"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/users/{user-id}
 ```
 # [C#](#tab/csharp)

@@ -34,7 +34,7 @@ If a user's OneDrive is not provisioned but the user has a license to use OneDri
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-drive-default", "scopes": "files.read", "tags": "service.graph" } -->
 
-```http
+```msgraph-interactive
 GET /me/drive
 ```
 # [C#](#tab/csharp)
@@ -64,7 +64,7 @@ If a user's OneDrive is not provisioned but the user has a license to use OneDri
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-drive-by-user", "scopes": "files.read.all", "tags": "service.graph" } -->
 
-```http
+```msgraph-interactive
 GET /users/{idOrUserPrincipalName}/drive
 ```
 # [C#](#tab/csharp)
@@ -98,7 +98,7 @@ To access a Group's default document library, your app requests the **drive** re
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-drive-by-group", "scopes": "group.read.all", "tags": "service.graph" } -->
 
-```http
+```msgraph-interactive
 GET /groups/{groupId}/drive
 ```
 # [C#](#tab/csharp)
@@ -132,7 +132,7 @@ To access a [Site's](../resources/site.md) default document library, your app re
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-drive-by-site-id", "scopes": "group.read.all" } -->
 
-```http
+```msgraph-interactive
 GET /sites/{siteId}/drive
 ```
 # [C#](#tab/csharp)
@@ -166,7 +166,7 @@ If you have the unique identifier for a drive, you can access it directly from t
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "get-drive-by-id", "scopes": "files.read" } -->
 
-```http
+```msgraph-interactive
 GET /drives/{drive-id}
 ```
 # [C#](#tab/csharp)

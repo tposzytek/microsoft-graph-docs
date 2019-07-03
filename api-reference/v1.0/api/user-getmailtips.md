@@ -57,7 +57,7 @@ The following example gets MailTips for the specified recipients, for any automa
   "blockType": "request",
   "name": "user_getmailtips"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/getMailTips
 Content-Type: application/json
 

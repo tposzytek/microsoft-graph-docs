@@ -66,7 +66,7 @@ Here is an example of the request to create and send a message on the fly.
   "blockType": "request",
   "name": "user_sendmail"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/sendMail
 Content-type: application/json
 Content-length: 512
@@ -130,7 +130,7 @@ The next example shows a message by the signed-in user to Samantha Booth. The me
   "blockType": "request",
   "name": "user_sendmail_with_mentions"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/sendMail
 Content-type: application/json
 Content-length: 344
@@ -190,7 +190,7 @@ The next example creates a message with custom Internet message headers and send
   "blockType": "request",
   "name": "user_sendmail_with_headers"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/sendMail
 Content-type: application/json
 

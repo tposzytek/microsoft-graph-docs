@@ -60,7 +60,7 @@ If successful, this method returns `204 No Content` response code. It does not r
   "blockType": "request",
   "name": "grouplifecyclepolicy_renewgroup"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groupLifecyclePolicies/renewGroup
 Content-type: application/json
 Content-length: 57

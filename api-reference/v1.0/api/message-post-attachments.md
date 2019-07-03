@@ -75,7 +75,7 @@ Here is an example of the request.
   "sampleKeys": ["AAMkpsDRVK"],
   "name": "create_file_attachment_from_message"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/messages/AAMkpsDRVK/attachments
 Content-type: application/json
 Content-length: 142

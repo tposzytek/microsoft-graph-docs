@@ -51,7 +51,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "delete_mailfolder"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/mailFolders/AAMkAGVmMDEzM/
 ```
 # [C#](#tab/csharp)

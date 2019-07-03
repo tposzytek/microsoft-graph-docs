@@ -62,7 +62,7 @@ The following is an example of the request.
   "name": "tiindicator_deletetiindicators"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/security/tiIndicators/deleteTiIndicators
 Content-type: application/json
 

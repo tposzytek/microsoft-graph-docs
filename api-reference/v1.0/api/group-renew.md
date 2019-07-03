@@ -51,7 +51,7 @@ If successful, this method returns `204 No Content` response code. It does not r
   "blockType": "request",
   "name": "group_renew"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/{id}/renew
 ```
 # [C#](#tab/csharp)

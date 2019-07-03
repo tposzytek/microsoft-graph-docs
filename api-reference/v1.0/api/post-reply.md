@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "post_reply"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/{id}/threads/{id}/posts/{id}/reply
 Content-type: application/json
 Content-length: 1131

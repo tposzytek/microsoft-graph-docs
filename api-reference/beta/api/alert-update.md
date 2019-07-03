@@ -72,7 +72,7 @@ The following is an example of the request without the `Prefer` header.
   "name": "update_alert"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/security/alerts/{alert_id}
 Content-type: application/json
 

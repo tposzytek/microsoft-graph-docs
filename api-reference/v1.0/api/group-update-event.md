@@ -47,7 +47,7 @@ The following is an example of the request.
   "sampleKeys": ["01d4ee64-15ce-491e-bad1-b91aa3223df4", "AAMkADZlAAAAABERAAA="],
   "name": "update_group_event"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/groups/01d4ee64-15ce-491e-bad1-b91aa3223df4/calendar/events/AAMkADZlAAAAABERAAA=
 Content-type: application/json
 

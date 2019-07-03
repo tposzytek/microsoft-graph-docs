@@ -46,7 +46,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "privilegedroleassignment_my"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/privilegedRoleAssignments/my
 ```
 # [C#](#tab/csharp)

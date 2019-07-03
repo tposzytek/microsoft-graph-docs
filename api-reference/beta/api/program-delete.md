@@ -49,7 +49,7 @@ If successful, this method returns a `204, No Content` response code. It does no
   "blockType": "request",
   "name": "delete_program"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/programs/7e59d237-2fb0-4e5d-b7bb-d4f9f9129213
 ```
 # [C#](#tab/csharp)

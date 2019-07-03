@@ -47,7 +47,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_approleassignment"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/appRoleAssignments/{id}
 ```
 # [C#](#tab/csharp)

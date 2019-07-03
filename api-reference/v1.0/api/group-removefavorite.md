@@ -44,7 +44,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "group_removefavorite"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/{id}/removeFavorite
 ```
 # [C#](#tab/csharp)

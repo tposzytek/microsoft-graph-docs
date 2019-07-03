@@ -67,7 +67,7 @@ If successful, this method returns `200 OK` response code and String collection 
   "name": "directoryobject_getByIds"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/directoryObjects/getByIds
 Content-type: application/json
 

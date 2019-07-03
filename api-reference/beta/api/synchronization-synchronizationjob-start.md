@@ -49,7 +49,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "synchronizationjob_start"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{jobId}/start
 ```
 # [C#](#tab/csharp)

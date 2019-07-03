@@ -67,7 +67,7 @@ If successful, this method returns a `204 No Content` response code.
   "blockType": "request",
   "name": "update_schemaextension"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/schemaExtensions/{id}
 Content-type: application/json
 Content-length: 201

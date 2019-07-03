@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_mailfolder_from_user"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/mailFolders
 Content-type: application/json
 Content-length: 159

@@ -40,7 +40,7 @@ This example restores a version of a listItem identified by `{item-id}` and `{ve
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "restore-item-version-listItem", "scopes": "files.readwrite sites.readwrite.all", "target": "action", "tags": "service.graph service.sharepoint" } -->
 
-```http
+```msgraph-interactive
 POST /sites/{site-id}/lists/{list-id}/items/{item-id}/versions/{version-id}/restoreVersion
 ```
 # [C#](#tab/csharp)

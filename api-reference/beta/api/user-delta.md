@@ -107,7 +107,7 @@ The following is an example of the request. There is no `$select` parameter, so 
   "name": "user_delta"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/delta
 ```
 # [C#](#tab/csharp)
@@ -175,7 +175,7 @@ The next example shows the initial request selecting 3 properties for change tra
   "name": "user_delta_select"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/delta?$select=displayName,jobTitle,mobilePhone
 ```
 # [C#](#tab/csharp)
@@ -231,7 +231,7 @@ The next example shows the initial request selecting 3 properties for change tra
   "name": "user_delta_minimal"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/delta?$select=displayName,jobTitle,mobilePhone
 Prefer: return=minimal
 ```

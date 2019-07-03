@@ -67,7 +67,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "event_tentativelyaccept"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/events/{id}/tentativelyAccept
 Content-type: application/json
 Content-length: 56

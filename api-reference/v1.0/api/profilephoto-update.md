@@ -63,7 +63,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_profilephoto"
 }-->
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/v1.0/me/photo/$value
 Content-type: image/jpeg
 

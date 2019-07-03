@@ -56,7 +56,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "update-audioRoutingGroup"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/app/calls/{id}/audioRoutingGroups/{id}
 Content-Type: application/json
 Content-Length: 233

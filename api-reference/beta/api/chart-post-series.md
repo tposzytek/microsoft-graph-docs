@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_chartseries_from_chart"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/series
 Content-type: application/json
 Content-length: 26

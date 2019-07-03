@@ -50,7 +50,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_educationuser_from_educationroot"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/education/users
 Content-type: application/json
 Content-length: 508

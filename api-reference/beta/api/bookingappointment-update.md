@@ -74,7 +74,7 @@ The following example changes the date of service by a day, and updated the invo
   "blockType": "request",
   "name": "update_bookingappointment"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/bookingBusinesses/Contosolunchdelivery@M365B489948.onmicrosoft.com/appointments/AAMkADKnAAA=
 Content-type: application/json
 

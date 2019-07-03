@@ -46,7 +46,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_message_from_mailfolder"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/mailFolders/{id}/messages
 Content-type: application/json
 Content-length: 248

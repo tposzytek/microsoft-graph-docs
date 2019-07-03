@@ -54,7 +54,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_directoryrole_from_directoryroles"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/directoryRoles
 Content-type: application/json
 Content-length: 153

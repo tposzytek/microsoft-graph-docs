@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "notebook_fromweburl"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/onenote/notebooks/GetNotebookFromWebUrl
 Content-type: application/json
 

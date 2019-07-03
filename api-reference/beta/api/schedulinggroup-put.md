@@ -60,7 +60,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "schedule-put-schedulinggroups"
 }-->
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/beta/teams/{teamId}/schedule/schedulingGroups/{schedulingGroupId}
 Content-type: application/json
 Prefer: return=representation

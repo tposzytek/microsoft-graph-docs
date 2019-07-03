@@ -57,7 +57,7 @@ The following is an example of the request.
   "name": "delete_educationassignment"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/education/classes/11014/assignments/19002
 ```
 # [C#](#tab/csharp)

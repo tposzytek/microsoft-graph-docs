@@ -57,7 +57,7 @@ If successful, this method returns a `200 OK` response code and updated [groupLi
   "blockType": "request",
   "name": "update_grouplifecyclepolicy"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/groupLifecyclePolicies/{id}
 Content-type: application/json
 Content-length: 151

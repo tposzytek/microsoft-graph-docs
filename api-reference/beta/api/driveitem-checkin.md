@@ -52,7 +52,7 @@ This example checks in a file identified by `{item-id}`.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "checkin-item", "scopes": "files.readwrite", "target": "action" } -->
 
-```http
+```msgraph-interactive
 POST /drives/{drive-id}/items/{item-id}/checkin
 Content-Type: application/json
 

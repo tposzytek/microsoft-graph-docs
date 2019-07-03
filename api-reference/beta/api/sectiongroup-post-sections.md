@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_section_from_sectiongroup"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/onenote/sectionGroups/{id}/sections
 Content-type: application/json
 Content-length: 27

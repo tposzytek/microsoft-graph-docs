@@ -75,7 +75,7 @@ The following is an example of the request.
   "name": "update_group"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/groups/{id}
 Content-type: application/json
 Content-length: 211

@@ -63,7 +63,7 @@ The following is an example of the request.
   "name": "applicationtemplate_instantiate"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/applicationTemplates/{id}/instantiate
 Content-type: application/json
 

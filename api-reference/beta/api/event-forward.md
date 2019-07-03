@@ -75,7 +75,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "event_forward"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/events/{id}/forward
 Content-type: application/json
 Content-length: 56

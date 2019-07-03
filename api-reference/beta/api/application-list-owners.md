@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_owners"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/applications/{id}/owners
 ```
 # [C#](#tab/csharp)

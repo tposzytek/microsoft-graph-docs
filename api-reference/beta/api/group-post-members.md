@@ -49,7 +49,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "add_group_member"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/{id}/members/$ref
 Content-type: application/json
 Content-length: 30

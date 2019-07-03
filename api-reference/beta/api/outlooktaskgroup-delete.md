@@ -47,7 +47,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_outlooktaskgroup"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/outlook/taskgroups/AAMkADIyAAAhrbe-AAA=
 ```
 # [C#](#tab/csharp)

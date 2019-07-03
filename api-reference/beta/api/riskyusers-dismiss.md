@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "dismiss_riskyuser"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/riskyUsers/dismiss
 Content-Type: application/json
 

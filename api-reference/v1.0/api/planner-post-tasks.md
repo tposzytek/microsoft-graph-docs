@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_plannertask_from_planner"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/planner/tasks
 Content-type: application/json
 Content-length: 285

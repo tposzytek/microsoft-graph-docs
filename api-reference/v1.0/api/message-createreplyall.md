@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "message_createreplyall"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/messages/{id}/createReplyAll
 ```
 # [C#](#tab/csharp)

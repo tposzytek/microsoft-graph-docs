@@ -58,7 +58,7 @@ In the request body, supply a JSON representation of the id of the user object.
   "blockType": "request",
   "name": "add_accessReview_reviewer"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/accessReviews/2b83cc42-09db-46f6-8c6e-16fec466a82d/reviewers
 Content-Type: application/json
 

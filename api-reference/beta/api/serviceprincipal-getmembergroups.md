@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "serviceprincipal_getmembergroups"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/getMemberGroups
 Content-type: application/json
 Content-length: 33

@@ -53,7 +53,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "synchronizationjob_restart"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{jobId}/restart
 Authorization: Bearer <token>
 Content-type: application/json

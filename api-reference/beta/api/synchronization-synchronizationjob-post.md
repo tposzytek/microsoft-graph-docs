@@ -49,7 +49,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "create_synchronizationjob_from_synchronization"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs
 Content-type: application/json
 

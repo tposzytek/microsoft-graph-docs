@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_schemaextension"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/schemaExtensions/{id}
 ```
 # [C#](#tab/csharp)

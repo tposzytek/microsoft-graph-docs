@@ -60,7 +60,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "update_educationschool"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/education/schools/{school-id}
 Content-type: application/json
 Content-length: 292

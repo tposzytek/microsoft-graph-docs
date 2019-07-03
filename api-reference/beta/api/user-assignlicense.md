@@ -55,7 +55,7 @@ Add licenses to the user.
   "blockType": "request",
   "name": "user_assignlicense"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/assignLicense
 Content-type: application/json
 Content-length: 185

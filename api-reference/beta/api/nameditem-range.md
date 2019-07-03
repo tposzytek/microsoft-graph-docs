@@ -46,7 +46,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "nameditem_range"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/names/{name}/Range
 ```
 # [C#](#tab/csharp)

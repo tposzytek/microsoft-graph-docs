@@ -64,7 +64,7 @@ In the request body, supply a JSON representation of the new properties of the [
   "blockType": "request",
   "name": "update_accessReview"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/accessReviews/006111db-0810-4494-a6df-904d368bd81b
 Content-type: application/json
 

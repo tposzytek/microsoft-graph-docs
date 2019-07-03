@@ -55,7 +55,7 @@ Here is an example of the request.
   "name": "delete_activity"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/activities/{activity-id}/
 ```
 # [C#](#tab/csharp)

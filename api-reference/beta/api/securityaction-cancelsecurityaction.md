@@ -58,7 +58,7 @@ The following is an example of the request.
   "name": "securityaction_cancelsecurityaction"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/security/securityActions/{id}/cancelSecurityAction
 ```
 # [C#](#tab/csharp)

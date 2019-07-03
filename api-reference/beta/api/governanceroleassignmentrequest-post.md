@@ -108,7 +108,7 @@ In this example, an administrator assigns user nawu@fimdev.net to the Billing Re
   "name": "governanceroleassignmentrequest_post"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedAccess/azureResources/roleAssignmentRequests
 Content-type: application/json
 

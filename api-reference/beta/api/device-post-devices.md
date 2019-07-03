@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_device_from_devices"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/devices
 Content-type: application/json
 Content-length: 364

@@ -69,7 +69,7 @@ Here is an example of the request.
   "name": "create_calendar_from_calendargroup"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/calendargroups/AAMkADYAAAR9NR5AAA=/calendars
 
 Content-type: application/json

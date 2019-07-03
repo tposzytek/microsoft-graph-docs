@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_photo"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/users/{id|userPrincipalName}/photo
 Content-type: application/json
 Content-length: 53

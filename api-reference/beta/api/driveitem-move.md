@@ -65,7 +65,7 @@ This example moves an item specified by {item-id} into a folder in the user's dr
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "move-item", "scopes": "files.readwrite" } -->
 
-```http
+```msgraph-interactive
 PATCH /me/drive/items/{item-id}
 Content-type: application/json
 

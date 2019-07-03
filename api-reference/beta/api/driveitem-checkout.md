@@ -46,7 +46,7 @@ This example checks out a file identified by `{item-id}`.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "checkout-item", "scopes": "files.readwrite", "target": "action" } -->
 
-```http
+```msgraph-interactive
 POST /drives/{drive-id}/items/{item-id}/checkout
 ```
 # [C#](#tab/csharp)

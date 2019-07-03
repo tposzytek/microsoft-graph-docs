@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_channel_from_group"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams/{id}/channels
 Content-type: application/json
 

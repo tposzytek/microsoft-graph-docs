@@ -53,7 +53,7 @@ The `@microsoft.graph.conflictBehavior` property used indicates that if an item 
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "create-folder", "scopes": "files.readwrite" } -->
 
-```http
+```msgraph-interactive
 POST /me/drive/root/children
 Content-Type: application/json
 

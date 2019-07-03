@@ -62,7 +62,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "privilegedrole_selfactivate"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedRoles/{id}/selfActivate
 Content-type: application/json
 Content-length: 142

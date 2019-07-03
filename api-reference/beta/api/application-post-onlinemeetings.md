@@ -52,7 +52,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "create-onlinemeeting-from-application"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/onlineMeetings
 Content-Type: application/json
 Content-Length: 1553

@@ -47,7 +47,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_outlooktaskgroup_from_outlookuser"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/outlook/taskGroups
 Content-type: application/json
 Content-length: 40

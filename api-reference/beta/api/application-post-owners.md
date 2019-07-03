@@ -47,7 +47,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_directoryobject_from_application"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/applications/{id}/owners
 Content-type: application/json
 Content-length: 30

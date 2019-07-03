@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "workbookworksheetprotection_unprotect"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/protection/unprotect
 Content-type: application/json
 Content-length: 34

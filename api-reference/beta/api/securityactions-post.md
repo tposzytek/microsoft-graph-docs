@@ -56,7 +56,7 @@ The following is an example of the request.
   "name": "create_securityaction_from_security"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/security/securityActions
 Content-type: application/json
 

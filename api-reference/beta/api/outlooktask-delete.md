@@ -57,7 +57,7 @@ Here is an example of the request.
   "name": "delete_outlooktask"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/outlook/tasks/AAMkADIyAAAhrb_QAAA=
 ```
 # [C#](#tab/csharp)

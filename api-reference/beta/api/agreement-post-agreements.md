@@ -55,7 +55,7 @@ In the request body, supply a JSON representation of the [agreement](../resource
   "blockType": "request",
   "name": "create_agreement_from_agreements"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/agreements
 Content-type: application/json
 

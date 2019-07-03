@@ -55,7 +55,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_plannerbucket"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/planner/buckets/hsOf2dhOJkqyYYZEtdzDe2QAIUCR
 Content-type: application/json
 Content-length: 27

@@ -78,7 +78,7 @@ The first example enables automatic replies for a date range, by setting the fol
   "blockType": "request",
   "name": "update_mailboxsettings"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/me/mailboxSettings
 Content-Type: application/json
 

@@ -48,7 +48,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "delete_educationassignmentresource"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/education/classes/11021/assignments/19002/resources/22002
 ```
 # [C#](#tab/csharp)

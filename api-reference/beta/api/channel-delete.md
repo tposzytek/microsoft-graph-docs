@@ -51,7 +51,7 @@ The following is an example of the request.
   "name": "delete_channel"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/teams/{id}/channels/{id}
 ```
 # [C#](#tab/csharp)

@@ -95,7 +95,7 @@ Here is an example of the request to delete an attachment on an event.
   "blockType": "request",
   "name": "delete_attachment"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/events/{id}/attachments/{id}
 ```
 # [C#](#tab/csharp)

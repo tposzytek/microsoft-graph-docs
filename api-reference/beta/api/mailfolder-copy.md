@@ -64,7 +64,7 @@ Here is an example of the request.
   "name": "mailfolder_copy"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/mailFolders/{id}/copy
 Content-type: application/json
 Content-length: 44

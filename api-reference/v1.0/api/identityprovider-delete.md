@@ -55,7 +55,7 @@ The following example deletes an **identityProvider**.
   "blockType": "request",
   "name": "delete-identityprovider"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/identityProviders/Amazon-OAuth
 ```
 # [C#](#tab/csharp)

@@ -58,7 +58,7 @@ The following is an example of the request.
   "name": "create_chatmessage_from_chatmessage"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams/{id}/channels/{id}/messages/{id}/replies
 Content-type: application/json
 

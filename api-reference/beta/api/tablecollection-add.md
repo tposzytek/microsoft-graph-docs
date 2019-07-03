@@ -60,7 +60,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "tablecollection_add"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/add
 Content-type: application/json
 Content-length: 54

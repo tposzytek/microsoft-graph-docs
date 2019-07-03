@@ -49,7 +49,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_bookingbusiness_from_bookingbusinesses"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/bookingBusinesses
 Content-type: application/json
 

@@ -70,7 +70,7 @@ Here is an example of the request.
   "name": "delete_subscription"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/subscriptions/{id}
 ```
 # [C#](#tab/csharp)

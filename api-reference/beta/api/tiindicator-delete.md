@@ -56,7 +56,7 @@ The following is an example of the request.
   "name": "delete_tiindicator"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/security/tiIndicators/{id}
 ```
 # [C#](#tab/csharp)

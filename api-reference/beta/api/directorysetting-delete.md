@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_directorysetting"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/settings/{id}
 ```
 # [C#](#tab/csharp)

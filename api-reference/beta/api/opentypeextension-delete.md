@@ -76,7 +76,7 @@ The first example references an extension by its name and deletes the extension 
   "blockType": "request",
   "name": "delete_opentypeextension"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/messages/AAMkAGE1M2IyNGNmLTI5MTktNDUyZi1iOTVl===/extensions/Com.Contoso.Referral/
 ```
 # [C#](#tab/csharp)

@@ -54,7 +54,7 @@ The following example shows the use of the `Prefer: outlook.timezone` header. It
   "blockType": "request",
   "name": "create_outlooktask_from_outlookuser"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/outlook/tasks
 Prefer: outlook.timezone="Pacific Standard Time"
 Content-type: application/json

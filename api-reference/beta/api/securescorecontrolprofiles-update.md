@@ -64,7 +64,7 @@ The following is an example of the request.
   "name": "securescorecontrolprofiles_update"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/security/secureScoreControlProfiles/AdminMFA
 Content-type: application/json
 

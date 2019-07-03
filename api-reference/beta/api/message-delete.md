@@ -66,7 +66,7 @@ The first example deletes the specified message.
   "blockType": "request",
   "name": "delete_message"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/messages/{id}
 ```
 # [C#](#tab/csharp)
@@ -101,7 +101,7 @@ The next example deletes a certain **mention** in the specified message.
   "blockType": "request",
   "name": "delete_mention_in_message"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/messages/{id}/mentions/{id}
 ```
 # [C#](#tab/csharp)

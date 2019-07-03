@@ -65,7 +65,7 @@ If successful, this method returns `200 OK` response code and String collection 
   "blockType": "request",
   "name": "directoryobject_getmembergroups"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/getMemberGroups
 Content-type: application/json
 

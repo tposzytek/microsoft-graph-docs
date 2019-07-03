@@ -51,7 +51,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "group_getmemberobjects"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/{id}/getMemberObjects
 Content-type: application/json
 Content-length: 33

@@ -49,7 +49,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "delete_synchronizationjob"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{jobId}/
 ```
 # [C#](#tab/csharp)

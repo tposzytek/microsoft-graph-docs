@@ -59,7 +59,7 @@ Here is an example of the request. It updates a range - values, number-format an
   "blockType": "request",
   "name": "update_range"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/sheet1/range(address='A1:B2')
 Content-type: application/json
 Content-length: 169

@@ -71,7 +71,7 @@ Here is an example of the request.
   "name": "create_user_from_users_2"	
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/users
 Content-type: application/json
 

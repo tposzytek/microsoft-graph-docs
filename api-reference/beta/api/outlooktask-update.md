@@ -83,7 +83,7 @@ The following example modifies the **dueDateTime** property and uses the `Prefer
   "name": "update_outlooktask"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/outlook/tasks/AAMkADA1MTHgwAAA=
 Prefer: outlook.timezone="Eastern Standard Time"
 Content-type: application/json

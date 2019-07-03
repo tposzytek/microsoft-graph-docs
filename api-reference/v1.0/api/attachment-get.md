@@ -118,7 +118,7 @@ Here is an example of the request to get a file attachment on an event.
   "blockType": "request",
   "name": "get_file_attachment"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/events/{id}/attachments/{id}
 ```
 # [C#](#tab/csharp)
@@ -172,7 +172,7 @@ The first example shows how to get an item attachment on a message. The properti
   "sampleKeys": ["AAMkADA1M-zAAA=", "AAMkADA1M-CJKtzmnlcqVgqI="],
   "name": "get_item_attachment"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/messages/AAMkADA1M-zAAA=/attachments/AAMkADA1M-CJKtzmnlcqVgqI=
 ```
 # [C#](#tab/csharp)
@@ -222,7 +222,7 @@ a message; the properties of that attached message are also returned.
   "sampleKeys": ["AAMkADA1M-zAAA=", "AAMkADA1M-CJKtzmnlcqVgqI="],
   "name": "get_and_expand_item_attachment"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/messages/AAMkADA1M-zAAA=/attachments/AAMkADA1M-CJKtzmnlcqVgqI=/?$expand=microsoft.graph.itemattachment/item 
 ```
 # [C#](#tab/csharp)
@@ -325,7 +325,7 @@ Here is an example of the request to get a reference attachment on a message.
   "name": "get_reference_attachment",
   "sampleKeys": ["AAMkAGUzY5QKgAAA=","AAMkAGUzY5QKgAAABEgAQAISJOe1FEqdNsMEQmpZjRW8="]
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/messages/AAMkAGUzY5QKgAAA=/attachments/AAMkAGUzY5QKgAAABEgAQAISJOe1FEqdNsMEQmpZjRW8=
 ```
 # [C#](#tab/csharp)

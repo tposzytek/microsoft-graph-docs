@@ -59,7 +59,7 @@ This example renames the DriveItem resource to "new-file-name.docx".
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "update-item", "tags": "service.graph" } -->
 
-```http
+```msgraph-interactive
 PATCH /me/drive/items/{item-id}
 Content-type: application/json
 

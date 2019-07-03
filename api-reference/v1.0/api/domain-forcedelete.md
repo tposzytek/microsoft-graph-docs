@@ -74,7 +74,7 @@ If successful, this method returns `HTTP/1.1 204 OK` status code.
   "name": "domain_forcedelete"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/domains/{id}/forceDelete
 Content-type: application/json
 Content-length: 33

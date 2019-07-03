@@ -48,7 +48,7 @@ Do not supply a request body with this method.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "delete-item-site", "scopes": "files.readwrite sites.readwrite.all" } -->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/sites/{site-id}/lists/{list-id}/items/{item-id}
 ```
 # [C#](#tab/csharp)

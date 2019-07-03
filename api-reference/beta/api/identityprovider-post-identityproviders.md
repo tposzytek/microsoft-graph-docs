@@ -63,7 +63,7 @@ The following example creates an **identityProvider**.
   "blockType": "request",
   "name": "create_identityprovider_from_identityproviders"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/identityProviders
 Content-type: application/json
 

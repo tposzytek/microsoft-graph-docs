@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "filter_apply"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/{id|name}/columns/{id|name}/filter/apply
 Content-type: application/json
 Content-length: 321

@@ -59,7 +59,7 @@ If successful, this method returns a `204 No Content` response code.
   "blockType": "request",
   "name": "update_device"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/devices/{id}
 Content-type: application/json
 Content-length: 31

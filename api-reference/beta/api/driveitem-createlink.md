@@ -90,7 +90,7 @@ The sharing link is configured to be read-only and usable by anyone with the lin
   "name": "item_createlink"
 }-->
 
-```http
+```msgraph-interactive
 POST /me/drive/items/{itemId}/createLink
 Content-type: application/json
 
@@ -149,7 +149,7 @@ To create a company sharable link, use the **scope** parameter with a value of `
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "create-link-scoped", "scopes": "files.readwrite service.sharepoint" } -->
 
-```http
+```msgraph-interactive
 POST /me/drive/items/{item-id}/createLink
 Content-Type: application/json
 
@@ -209,7 +209,7 @@ When an embed link is created the `webHtml` property contains the HTML code for 
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "create-embedded-link", "scopes": "files.readwrite service.onedrive" } -->
 
-```http
+```msgraph-interactive
 POST /me/drive/items/{item-id}/createLink
 Content-Type: application/json
 

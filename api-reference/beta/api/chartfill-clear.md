@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "chartfill_clear"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/format/fill/clear
 ```
 # [C#](#tab/csharp)

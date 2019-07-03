@@ -54,7 +54,7 @@ The following example changes the staff member's schedule to have Mondays off.
   "blockType": "request",
   "name": "update_bookingstaffmember"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/bookingBusinesses/Contosolunchdelivery@M365B489948.onmicrosoft.com/staffmembers/8ee1c803-a1fa-406d-8259-7ab53233f148
 Content-type: application/json
 

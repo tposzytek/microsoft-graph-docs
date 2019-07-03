@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getOneDriveUsageFileCounts(period='{period_value}')
 ```
 
@@ -74,7 +74,7 @@ The following is an example of the request.
   "name": "reportroot_getonedriveusagefilecounts"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getOneDriveUsageFileCounts(period='D7')
 ```
 # [C#](#tab/csharp)

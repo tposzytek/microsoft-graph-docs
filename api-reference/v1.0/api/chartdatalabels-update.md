@@ -55,7 +55,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_chartdatalabels"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/dataLabels
 Content-type: application/json
 Content-length: 134

@@ -115,7 +115,7 @@ The following is an example of the request without the `Prefer` header.
   "name": "update_tiIndicator"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/security/tiIndicators/{id}
 Content-type: application/json
 

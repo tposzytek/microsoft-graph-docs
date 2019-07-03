@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_contact_from_contactfolder"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/contactFolders/{id}/contacts
 Content-type: application/json
 Content-length: 210

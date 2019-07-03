@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_directorysetting_from_settings"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/settings
 Content-type: application/json
 Content-length: 222

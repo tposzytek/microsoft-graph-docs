@@ -45,7 +45,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "filter_clear"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/tables/{id|name}/columns/{id|name}/filter/clear
 ```
 # [C#](#tab/csharp)

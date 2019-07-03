@@ -58,7 +58,7 @@ If successful, this method returns a `204 No Content` response code and no respo
   "blockType": "request",
   "name": "update_domain"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/domains/contoso.com
 Content-type: application/json
 

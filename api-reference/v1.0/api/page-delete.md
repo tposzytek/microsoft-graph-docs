@@ -44,7 +44,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_page"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/onenote/pages/{id}
 ```
 # [C#](#tab/csharp)

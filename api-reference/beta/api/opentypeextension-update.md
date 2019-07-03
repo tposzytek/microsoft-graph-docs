@@ -195,7 +195,7 @@ The following is the request and request body to change the `expirationDate` to 
   "blockType": "request",
   "name": "update_opentypeextension"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/groups/37df2ff0-0de0-4c33-8aee-75289364aef6/threads/AAQkADJizZJpEWwqDHsEpV_KA==/posts/AAMkADJiUg96QZUkA-ICwMubAADDEd7UAAA=/extensions/Microsoft.OutlookServices.OpenTypeExtension.Com.Contoso.Estimate
 Content-type: application/json
 

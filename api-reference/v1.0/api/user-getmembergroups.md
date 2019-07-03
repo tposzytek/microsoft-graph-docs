@@ -67,7 +67,7 @@ Here is an example of the request.
   "name": "user_getmembergroups"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/getMemberGroups
 Content-type: application/json
 Content-length: 33

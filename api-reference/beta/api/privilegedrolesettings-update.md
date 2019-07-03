@@ -65,7 +65,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "put_privilegedrolesettings"
 }-->
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/beta/privilegedRoles/{id}/settings
 Content-type: application/json
 

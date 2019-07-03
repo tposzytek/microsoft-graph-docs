@@ -59,7 +59,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_file_attachment_from_eventmessage"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/{id}/attachments
 Content-type: application/json
 
@@ -109,7 +109,7 @@ HTTP 201 Created
   "blockType": "request",
   "name": "create_item_attachment_from_eventmessage"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/events/{id}/attachments
 Content-type: application/json
 

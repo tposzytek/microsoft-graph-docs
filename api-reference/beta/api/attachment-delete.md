@@ -105,7 +105,7 @@ Here is an example of the request to delete an attachment on an event.
   "name": "delete_attachment"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/events/{id}/attachments/{id}
 ```
 # [C#](#tab/csharp)

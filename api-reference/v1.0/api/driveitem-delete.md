@@ -47,7 +47,7 @@ Here is an example of how to call this API.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "delete-item", "scopes": "files.readwrite", "tags": "service.graph" } -->
 
-```http
+```msgraph-interactive
 DELETE /me/drive/items/{item-id}
 ```
 # [C#](#tab/csharp)

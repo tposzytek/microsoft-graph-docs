@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_privilegedroleassignment"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/privilegedRoleAssignments/{id}
 ```
 # [C#](#tab/csharp)

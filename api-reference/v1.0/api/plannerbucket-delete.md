@@ -47,7 +47,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_plannerbucket"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/planner/buckets/{id}
 If-Match: W/"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAWCc="
 ```

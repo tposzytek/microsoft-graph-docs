@@ -85,7 +85,7 @@ times in the response.
   "blockType": "request",
   "name": "create_event_from_user"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/events
 Prefer: outlook.timezone="Pacific Standard Time"
 Content-type: application/json
@@ -240,7 +240,7 @@ In the request body, supply a JSON representation of [event](../resources/event.
   "blockType": "request",
   "name": "create_event_from_user_multiple_locations"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/events
 Prefer: outlook.timezone="Pacific Standard Time"
 Content-type: application/json
@@ -458,7 +458,7 @@ The third example shows how to create a recurring event. The event occurs from 1
   "blockType": "request",
   "name": "create_event_recurring"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/events
 Content-type: application/json
 

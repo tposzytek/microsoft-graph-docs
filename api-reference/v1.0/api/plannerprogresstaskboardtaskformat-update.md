@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_plannerprogresstaskboardtaskformat"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/planner/tasks/{task-id}/progressTaskBoardFormat
 Content-type: application/json
 Content-length: 34

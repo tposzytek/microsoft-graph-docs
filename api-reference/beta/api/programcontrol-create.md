@@ -63,7 +63,7 @@ In the request body, supply a JSON representation of the [programControl](../res
   "blockType": "request",
   "name": "create_programControl_from_programControls"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/programControls
 Content-type: application/json
 

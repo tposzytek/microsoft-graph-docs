@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_messagerule"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/mailfolders/inbox/messagerules('AQAAAJ5dZp8=')
 
 ```

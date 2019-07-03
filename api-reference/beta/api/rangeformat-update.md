@@ -66,7 +66,7 @@ This request updates the vertical alignment, row height, and column height of th
   "blockType": "request",
   "name": "update_rangeformat"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$A$1')/format
 Content-type: application/json
 
@@ -120,7 +120,7 @@ This request updates the font style, size, and color of the first cell.
   "blockType": "request",
   "name": "update_rangeformat_font"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$A$1')/format/font
 Content-type: application/json
 
@@ -174,7 +174,7 @@ This request updates the background color of the first cell.
   "blockType": "request",
   "name": "update_rangeformat_fill"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$A$1')/format/fill
 Content-type: application/json
 
@@ -220,7 +220,7 @@ This request updates the vertical alignment, horizontal alignment, row height, a
   "blockType": "request",
   "name": "update_rangeformat_two"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$B$1')/format
 Content-type: application/json
 
@@ -275,7 +275,7 @@ This request updates the font style and size of the second cell.
   "blockType": "request",
   "name": "update_rangeformat_font_two"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$B$1')/format/font
 Content-type: application/json
 
@@ -328,7 +328,7 @@ This request updates the background color of the second cell.
   "blockType": "request",
   "name": "update_rangeformat_fill_two"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$B$1')/format/fill
 Content-type: application/json
 
@@ -375,7 +375,7 @@ This request updates the horizontal alignment, vertical alignment, row height, a
   "blockType": "request",
   "name": "update_rangeformat_three"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$C$1')/format
 Content-type: application/json
 
@@ -430,7 +430,7 @@ This request updates the font style, size, and color of the third cell. Note tha
   "blockType": "request",
   "name": "update_rangeformat_font_three"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$C$1')/format/font
 Content-type: application/json
 
@@ -484,7 +484,7 @@ This request updates the background color of the third cell.
   "blockType": "request",
   "name": "update_rangeformat_fill_three"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/Sheet1/range(address='$C$1')/format/fill
 Content-type: application/json
 

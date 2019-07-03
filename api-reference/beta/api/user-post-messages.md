@@ -63,7 +63,7 @@ Here is an example of the request to create a draft of a new message.
   "blockType": "request",
   "name": "create_message_from_user"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages
 Content-type: application/json
 
@@ -178,7 +178,7 @@ In the request body, supply a JSON representation of [message](../resources/mess
   "blockType": "request",
   "name": "create_message_with_mentions_from_user"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages
 Content-type: application/json
 
@@ -286,7 +286,7 @@ The next example adds a couple of customer Internet message headers when creatin
   "blockType": "request",
   "name": "create_message_with_headers_from_user"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages
 Content-type: application/json
 

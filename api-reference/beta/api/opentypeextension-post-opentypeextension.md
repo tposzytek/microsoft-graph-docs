@@ -136,7 +136,7 @@ The first example creates a message and an extension in the same call. The reque
   "blockType": "request",
   "name": "post_opentypeextension_1"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages
 Content-Type: application/json
 
@@ -277,7 +277,7 @@ extension:
   "blockType": "request",
   "name": "post_opentypeextension_2"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/AAMkAGE1M2IyNGNmLTI5MTktNDUyZi1iOTVl===/extensions
 Content-Type: application/json
 
@@ -351,7 +351,7 @@ extension:
   "blockType": "request",
   "name": "post_opentypeextension_3"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/f5480dfd-7d77-4d0b-ba2e-3391953cc74a/events/AAMkADVl17IsAAA=/extensions
 Content-type: application/json
 
@@ -420,7 +420,7 @@ the **body** of the new post, and the following data for the new extension:
   "blockType": "request",
   "name": "post_opentypeextension_4"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/37df2ff0-0de0-4c33-8aee-75289364aef6/threads/AAQkADJizZJpEWwqDHsEpV_KA==/posts/AAMkADJiUg96QZUkA-ICwMubAAC1heiSAAA=/reply
 Content-type: application/json
 
@@ -495,7 +495,7 @@ in turn contains the **body** of the new post, and the following data for the ex
   "blockType": "request",
   "name": "post_opentypeextension_5"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/37df2ff0-0de0-4c33-8aee-75289364aef6/conversations
 Content-type: application/json
 

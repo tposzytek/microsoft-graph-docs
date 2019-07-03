@@ -46,7 +46,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_synchronizationProfile"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/education/synchronizationProfiles/{id}
 ```
 # [C#](#tab/csharp)

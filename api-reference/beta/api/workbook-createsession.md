@@ -59,7 +59,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_excel_session"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/createSession
 Content-type: application/json
 Content-length: 52

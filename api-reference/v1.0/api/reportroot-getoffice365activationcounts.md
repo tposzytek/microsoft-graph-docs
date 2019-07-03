@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getOffice365ActivationCounts
 ```
 
@@ -67,7 +67,7 @@ The following is an example of the request.
   "name": "reportroot_getoffice365activationcounts"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getOffice365ActivationCounts
 ```
 # [C#](#tab/csharp)

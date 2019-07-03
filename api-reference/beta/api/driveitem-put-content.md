@@ -96,7 +96,7 @@ This example replaces the contents of a file with a known ID.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "upload-via-put-id", "scopes": "files.readwrite" } -->
 
-```http
+```msgraph-interactive
 PUT /me/drive/items/{item-id}/content
 Content-Type: text/plain
 

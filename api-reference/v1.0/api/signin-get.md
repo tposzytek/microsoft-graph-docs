@@ -58,7 +58,7 @@ Here is an example of the request.
   "name": "get_signin"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/auditLogs/signIns/{id}
 ```
 # [C#](#tab/csharp)

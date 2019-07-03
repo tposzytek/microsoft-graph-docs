@@ -62,7 +62,7 @@ The following example updates the definition of the token lifetime **identityPro
   "blockType": "request",
   "name": "update-identityprovider"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/identityProviders/Amazon-OAuth
 Content-type: application/json
 Content-length: 41

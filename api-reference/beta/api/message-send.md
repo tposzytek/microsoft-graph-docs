@@ -58,7 +58,7 @@ Here is an example of the request.
   "name": "message_send"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/{id}/send
 ```
 # [C#](#tab/csharp)

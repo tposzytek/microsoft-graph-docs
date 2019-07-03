@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_plannerplandetails"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/planner/plans/{plan-id}/details
 Content-type: application/json
 Content-length: 212

@@ -56,7 +56,7 @@ The following example deletes a **trustFrameworkPolicy**.
   "blockType": "request",
   "name": "delete_trustFrameworkPolicy"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/trustFramework/policies/B2C_1A_SocialAndLocalAccounts_Base
 ```
 # [C#](#tab/csharp)

@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "samples" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getOneDriveUsageAccountDetail(period='{period_value}')
 GET /reports/getOneDriveUsageAccountDetail(date={date_value})
 ```
@@ -82,7 +82,7 @@ The following is an example of the request.
   "name": "reportroot_getonedriveusageuserdetail"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getOneDriveUsageAccountDetail(period='D7')
 ```
 # [C#](#tab/csharp)

@@ -23,7 +23,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 POST /me/drive/root/workbook/worksheets/{id}/range/columnsAfter(count=n)
 
 ```
@@ -56,7 +56,7 @@ Here is an example of the request.
   "name": "workbookrange_columnsafter",
   "idempotent": true
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/drive/root/workbook/worksheets/{id}/range/columnsAfter(count=2)
 ```
 # [C#](#tab/csharp)

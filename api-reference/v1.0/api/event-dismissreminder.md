@@ -67,7 +67,7 @@ Here is an example of the request.
   "name": "event_dismissreminder"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/events/{id}/dismissReminder
 ```
 # [C#](#tab/csharp)

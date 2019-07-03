@@ -52,7 +52,7 @@ The following example shows how to unfollow multiple sites.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "unfollow-site", "scopes": "sites.readwrite.all" } -->
 
-```http
+```msgraph-interactive
 POST /users/{user-id}/followedSites/remove
 Content-Type: application/json
 

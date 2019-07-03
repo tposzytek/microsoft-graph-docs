@@ -65,7 +65,7 @@ Here is an example of the request.
   "name": "update_calendargroup"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/calendarGroups/{id}
 Content-type: application/json
 Content-length: 30

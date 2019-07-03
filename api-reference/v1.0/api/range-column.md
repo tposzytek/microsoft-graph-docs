@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET /workbook/names/{name}/range/column
 GET /workbook/worksheets/{id|name}/range(address='<address>')/column
 GET /workbook/tables/{id|name}/columns/{id|name}/range/column
@@ -54,7 +54,7 @@ Here is an example of the request.
   "isComposable": true,
   "name": "range_column"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/names/{name}/range/column(column=5)
 ```
 # [C#](#tab/csharp)

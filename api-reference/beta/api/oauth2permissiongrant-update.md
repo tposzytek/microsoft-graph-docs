@@ -53,7 +53,7 @@ If successful, this method returns `204 No Content` response code. It does not r
   "blockType": "request",
   "name": "update_oAuth2Permissiongrant"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/oAuth2Permissiongrants/{id}
 Content-type: application/json
 Content-length: 30

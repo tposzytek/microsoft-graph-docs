@@ -66,7 +66,7 @@ Here is an example of the request.
   "name": "message_copy"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/{id}/copy
 Content-type: application/json
 Content-length: 44

@@ -61,7 +61,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_messagerule_from_mailfolder"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/mailFolders/inbox/messagerules
 Content-type: application/json
 

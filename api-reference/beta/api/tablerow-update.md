@@ -51,7 +51,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_tablerow"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/{id|name}/rows/{index}
 Content-type: application/json
 Content-length: 45

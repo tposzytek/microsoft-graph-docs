@@ -69,7 +69,7 @@ Here is an example of the request.
   "name": "user_checkmembergroups"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/checkMemberGroups
 Content-type: application/json
 Content-length: 44

@@ -53,7 +53,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_conversation_from_group"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/29981b6a-0e57-42dc-94c9-cd24f5306196/conversations
 Content-type: application/json
 

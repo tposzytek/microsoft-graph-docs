@@ -47,7 +47,7 @@ The following is an example of the request. This appointment does not involve bo
   "blockType": "request",
   "name": "create_bookingappointment_from_bookingbusiness"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/bookingBusinesses/Contosolunchdelivery@M365B489948.onmicrosoft.com/appointments
 Content-type: application/json
 

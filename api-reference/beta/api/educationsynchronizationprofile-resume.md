@@ -46,7 +46,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "post_educationSynchronizationProfile_resume"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/education/synchronizationProfiles/{id}/resume
 ```
 # [C#](#tab/csharp)

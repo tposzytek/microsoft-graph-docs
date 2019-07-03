@@ -77,7 +77,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "event_cancel"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/events/{id}/cancel
 Content-type: application/json
 

@@ -51,7 +51,7 @@ The following is an example of a request.
   "blockType": "request",
   "name": "update_synchronizationtemplate"
 }-->
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/beta/applications/{id}/synchronization/templates/{templateId}
 Authorization: Bearer <token>
 Content-type: application/json

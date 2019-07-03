@@ -93,7 +93,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_user"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me
 Content-type: application/json
 Content-length: 491

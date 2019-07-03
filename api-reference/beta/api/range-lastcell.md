@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "range_lastcell"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/names/{name}/range/LastCell
 ```
 # [C#](#tab/csharp)

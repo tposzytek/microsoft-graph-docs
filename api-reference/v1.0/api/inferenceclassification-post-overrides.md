@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_inferenceclassificationoverride_from_inferenceclassification"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/inferenceClassification/overrides
 Content-type: application/json
 

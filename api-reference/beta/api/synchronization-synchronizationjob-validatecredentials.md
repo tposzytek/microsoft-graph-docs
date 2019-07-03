@@ -51,7 +51,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "synchronizationjob_validatecredentials"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/servicePrincipals/{id}/synchronization/jobs/{id}/validateCredentials
 Content-type: application/json
 Content-length: 218

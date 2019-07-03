@@ -54,7 +54,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "delete_group"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/groups/{id}
 ```
 # [C#](#tab/csharp)

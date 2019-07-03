@@ -63,7 +63,7 @@ The following is an example of the request.
    "isCollection": "true"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/security/alerts/updateAlerts
 Content-type: application/json
 

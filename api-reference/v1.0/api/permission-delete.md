@@ -52,7 +52,7 @@ This example removes the permission identified as {perm-id} from the item {item-
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "delete-permission", "scopes": "files.readwrite", "tags": "service.graph" }-->
 
-```http
+```msgraph-interactive
 DELETE /me/drive/items/{item-id}/permissions/{perm-id}
 ```
 # [C#](#tab/csharp)

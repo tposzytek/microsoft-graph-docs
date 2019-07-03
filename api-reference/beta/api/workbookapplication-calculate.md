@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "workbookApplication_calculate"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/application/calculate
 Content-type: application/json
 Content-length: 48

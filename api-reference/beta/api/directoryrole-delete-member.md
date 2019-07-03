@@ -57,7 +57,7 @@ Here is an example of the request.
   "name": "delete_directoryobject_from_directoryrole"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/directoryroles/{id}/members/{id}/$ref
 ```
 # [C#](#tab/csharp)

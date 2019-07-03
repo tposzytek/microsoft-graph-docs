@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_plannerbuckettaskboardtaskformat"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/planner/tasks/hsOf2dhOJkqyYYZEtdzDe2QAIUCR/bucketTaskBoardFormat
 Content-type: application/json
 Content-length: 34

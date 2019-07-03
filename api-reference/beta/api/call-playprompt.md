@@ -57,7 +57,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "call-playPrompt"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls/{id}/playPrompt
 Content-Type: application/json
 Content-Length: 166

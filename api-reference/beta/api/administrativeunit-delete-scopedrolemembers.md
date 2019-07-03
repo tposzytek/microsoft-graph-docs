@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_scopedrolemember"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/administrativeUnits/{id}/scopedRoleMembers/{id}
 ```
 # [C#](#tab/csharp)

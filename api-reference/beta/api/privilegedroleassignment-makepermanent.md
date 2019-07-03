@@ -56,7 +56,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "privilegedroleassignment_makepermanent"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedRoleAssignments/{id}/makePermanent
 Content-type: application/json
 Content-length: 110

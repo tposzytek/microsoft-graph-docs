@@ -60,7 +60,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "section_copytosectiongroup"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/onenote/sections/{id}/copyToSectionGroup
 Content-type: application/json
 Content-length: 84

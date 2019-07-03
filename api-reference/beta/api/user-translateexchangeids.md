@@ -80,7 +80,7 @@ Here is the example request.
   "name": "user_translateexchangeids"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/translateExchangeIds
 Content-Type: application/json
 

@@ -59,7 +59,7 @@ The following example changes the override for the SMTP address randiw@adatum.on
   "blockType": "request",
   "name": "update_inferenceclassificationoverride"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/inferenceClassification/overrides/{id}
 Content-type: application/json
 

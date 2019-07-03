@@ -55,7 +55,7 @@ The new copy of the file will be named `contoso plan (copy).txt`.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "copy-item", "scopes": "files.readwrite", "target": "action" } -->
 
-```http
+```msgraph-interactive
 POST /me/drive/items/{item-id}/copy
 Content-Type: application/json
 

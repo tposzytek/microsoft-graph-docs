@@ -57,7 +57,7 @@ The following is an example request that updates the **filterQuery** property of
   "sampleKeys": ["AAMkAGVmMDEzM"],
   "name": "update_mailsearchfolder"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/mailFolders/AAMkAGVmMDEzM
 Content-type: application/json
 

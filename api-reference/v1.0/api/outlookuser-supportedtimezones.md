@@ -61,7 +61,7 @@ The following example does not specify the `timeZoneStandard` parameter, and get
   "blockType": "request",
   "name": "user_supportedtimezones_default"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/outlook/supportedTimeZones
 ```
 # [C#](#tab/csharp)
@@ -125,7 +125,7 @@ The following example specifies `Iana` for the `TimeZoneStandard` parameter, and
   "name": "user_supportedtimezones_iana"
 } -->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/outlook/supportedTimeZones(TimeZoneStandard=microsoft.graph.timeZoneStandard'Iana')
 ```
 # [C#](#tab/csharp)

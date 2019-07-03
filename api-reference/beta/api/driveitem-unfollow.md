@@ -49,7 +49,7 @@ This example unfollows an item identified by `{item-id}`.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "unfollow-item", "scopes": "files.read" } -->
 
-```http
+```msgraph-interactive
 DELETE /me/drive/following/{item-id}
 ```
 # [C#](#tab/csharp)

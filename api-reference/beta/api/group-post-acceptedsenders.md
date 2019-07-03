@@ -48,7 +48,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_acceptedsender"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/groups/{id}/acceptedSenders/$ref
 Content-type: application/json
 Content-length: 30

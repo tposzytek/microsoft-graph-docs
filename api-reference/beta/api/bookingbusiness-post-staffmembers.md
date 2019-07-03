@@ -51,7 +51,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_bookingstaffmember_from_bookingbusiness"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/bookingBusinesses/{id}/staffMembers
 Content-type: application/json
 Content-length: 309

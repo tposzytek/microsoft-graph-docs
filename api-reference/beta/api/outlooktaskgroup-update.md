@@ -52,7 +52,7 @@ The following example changes the name of a task group to "Personal Tasks".
   "blockType": "request",
   "name": "update_outlooktaskgroup"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/outlook/taskgroups/AAMkADIyAAAhrbe-AAA=
 Content-type: application/json
 Content-length: 28

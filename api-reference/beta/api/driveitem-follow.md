@@ -51,7 +51,7 @@ This example follows an item identified by `{item-id}`.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "follow-item", "scopes": "files.read", "target": "action" } -->
 
-```http
+```msgraph-interactive
 POST /me/drive/items/{item-id}/follow
 ```
 # [C#](#tab/csharp)

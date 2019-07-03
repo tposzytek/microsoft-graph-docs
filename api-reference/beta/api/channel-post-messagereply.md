@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "post_reply_message"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams/{id}/channels/{id}/messages/{id}/replies
 Content-type: application/json
 

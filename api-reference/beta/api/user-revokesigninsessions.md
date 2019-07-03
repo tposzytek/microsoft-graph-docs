@@ -57,7 +57,7 @@ The following example shows how to call this API.
   "blockType": "request",
   "name": "user_revokesigninsessionss"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/revokeSignInSessions
 ```
 # [C#](#tab/csharp)

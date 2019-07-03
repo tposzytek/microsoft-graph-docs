@@ -62,7 +62,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_plannertask"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/planner/tasks/01gzSlKkIUSUl6DF_EilrmQAKDhh
 Content-type: application/json
 Content-length: 247

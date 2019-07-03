@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_chartlegend"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/legend
 Content-type: application/json
 Content-length: 72

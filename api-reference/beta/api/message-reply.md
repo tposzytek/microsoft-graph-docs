@@ -68,7 +68,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "message_reply"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/AAMkADA1MTAAAAqldOAAA=/reply
 Content-Type: application/json
 

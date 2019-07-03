@@ -55,7 +55,7 @@ Here is an example of the request.
   "name": "delete_historyItem"
 }-->
 
-```http
+```msgraph-interactive
 PUT https://graph.microsoft.com/v1.0/me/activities/{activity-id}/historyItems/{item-id}
 ```
 # [Objective-C](#tab/objc)

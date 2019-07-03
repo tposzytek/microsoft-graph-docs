@@ -112,7 +112,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "call-reject"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls/{id}/reject
 Content-Type: application/json
 Content-Length: 24

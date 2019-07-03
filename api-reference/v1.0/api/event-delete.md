@@ -59,7 +59,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_event"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/events/{id}
 ```
 # [C#](#tab/csharp)

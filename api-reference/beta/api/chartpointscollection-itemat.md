@@ -53,7 +53,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "chartpointscollection_itemat"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/series/{undefined}/points/ItemAt
 Content-type: application/json
 Content-length: 20

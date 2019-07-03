@@ -60,7 +60,7 @@ If successful, this method returns a `204 No Content` response code.
   "blockType": "request",
   "name": "update_administrativeunit"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/administrativeUnits/{id}
 Content-type: application/json
 Content-length: 114

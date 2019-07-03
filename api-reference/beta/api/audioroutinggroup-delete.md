@@ -50,7 +50,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "delete-audioRoutingGroup"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/app/calls/{id}/audioRoutingGroups/{id}
 ```
 # [C#](#tab/csharp)

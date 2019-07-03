@@ -60,7 +60,7 @@ The following example changes the name of the rule, and the actions to be taken 
   "sampleKeys": ["inbox", "AQAAAJ5dZqA="],
   "name": "update_messagerule"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules/AQAAAJ5dZqA=
 Content-type: application/json
 

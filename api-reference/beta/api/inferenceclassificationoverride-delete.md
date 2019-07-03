@@ -45,7 +45,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_inferenceclassificationoverride"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/inferenceClassification/overrides/98f5bdef-576a-404d-a2ea-07a3cf34af4r
 ```
 # [C#](#tab/csharp)

@@ -48,7 +48,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "create_educationuser_from_educationclass"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/education/classes/11011/members/$ref
 Content-type: application/json
 Content-length: 56

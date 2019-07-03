@@ -46,7 +46,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "remove_rejectedSender_from_group"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/groups/{id}/rejectedSenders/$ref?$id=https://graph.microsoft.com/v1.0/users/{user-id}
 ```
 # [C#](#tab/csharp)

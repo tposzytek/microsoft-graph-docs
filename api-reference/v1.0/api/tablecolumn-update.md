@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_tablecolumn"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/tables/{id|name}/columns/{id|name}
 Content-type: application/json
 Content-length: 81

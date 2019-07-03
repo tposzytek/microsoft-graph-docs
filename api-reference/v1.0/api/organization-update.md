@@ -63,7 +63,7 @@ If successful, this method returns a `204 No Content` response code.
   "name": "update_organization"
 }-->
 
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/organization/{id}
 Content-type: application/json
 Content-length: 411

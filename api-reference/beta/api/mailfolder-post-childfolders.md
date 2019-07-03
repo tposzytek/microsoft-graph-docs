@@ -65,7 +65,7 @@ The following is an example of the request.
   "name": "create_mailfolder_from_mailfolder"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/mailFolders/{id}/childFolders
 Content-type: application/json
 Content-length: 159

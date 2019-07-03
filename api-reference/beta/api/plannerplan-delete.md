@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_plannerplan"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/planner/plans/<id>
 If-Match: W/"JzEtVGFzayAgQEBAQEBAQEBAQEBAQEBAWCc="
 ```

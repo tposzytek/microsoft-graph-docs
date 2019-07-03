@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "tablesort_clear"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/tables/{id|name}/sort/clear
 ```
 # [C#](#tab/csharp)

@@ -77,7 +77,7 @@ If successful, this method returns `200 OK` response code and [permission](../re
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "send-sharing-invite", "@odata.type": "microsoft.graph.inviteParameters", "scopes": "files.readwrite", "target": "action" } -->
 
-```http
+```msgraph-interactive
 POST /me/drive/items/{item-id}/invite
 Content-type: application/json
 

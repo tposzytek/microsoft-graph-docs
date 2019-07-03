@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "privilegedrole_selfdeactivate"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedRoles/{id}/selfDeactivate
 ```
 # [C#](#tab/csharp)

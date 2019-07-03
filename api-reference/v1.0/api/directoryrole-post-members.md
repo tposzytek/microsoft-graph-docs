@@ -47,7 +47,7 @@ If successful, this method returns `204 No Content` response code.
   "blockType": "request",
   "name": "create_directoryobject_from_directoryrole"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/directoryRoles/{id}/members/$ref
 Content-type: application/json
 

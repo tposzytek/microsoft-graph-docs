@@ -56,7 +56,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "NamedItemcollection_add"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/names/add
 Content-type: application/json
 Content-length: 54

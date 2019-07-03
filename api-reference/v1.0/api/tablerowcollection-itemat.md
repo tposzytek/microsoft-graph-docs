@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 POST /workbook/tables/{id|name}/rows/itemAt
 POST /workbook/worksheets/{id|name}/tables/{id|name}/rows/itemAt
 
@@ -55,7 +55,7 @@ Here is an example of the request.
   "idempotent": true,
   "@type": "requestBodyResourceFor.tablerowcollection_itemat"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/tables/{id|name}/rows/itemAt
 Content-type: application/json
 Content-length: 20

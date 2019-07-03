@@ -65,7 +65,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "message_createforward"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/AAMkADA1MTAAAH5JaLAAA=/createForward
 Content-Type: application/json
 

@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_administrativeunit_from_administrativeunits"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/administrativeUnits
 Content-type: application/json
 Content-length: 150

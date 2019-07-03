@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_device_from_devices"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/devices
 Content-type: application/json
 

@@ -60,7 +60,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "call-redirect"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls/{id}/redirect
 Content-Type: application/json
 Content-Length: 515

@@ -73,7 +73,7 @@ The first example references an extension by its name and deletes the extension 
   "sampleKeys": ["Com.Contoso.Referral", "AAMkAGE1M2IyNGNmLTI5MTktNDUyZi1iOTVl==="],
   "name": "delete_opentypeextension"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/messages/AAMkAGE1M2IyNGNmLTI5MTktNDUyZi1iOTVl===/extensions/Com.Contoso.Referral
 ```
 # [C#](#tab/csharp)

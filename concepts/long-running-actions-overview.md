@@ -28,7 +28,7 @@ This request will likely take several seconds to complete since the amount of da
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "lro-copy-item-example", "scopes": "files.readwrite" } -->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{folder-item-id}/copy
 Content-Type: application/json
 
@@ -136,7 +136,7 @@ You can address this new item using the resourceId, for example:
   "scopes": "files.readwrite"
 } -->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/drive/items/{item-id}
 ```
 # [C#](#tab/csharp)

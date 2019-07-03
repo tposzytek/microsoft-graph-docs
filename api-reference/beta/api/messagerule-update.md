@@ -60,7 +60,7 @@ The following example changes the name of the rule, and the actions to be taken 
   "blockType": "request",
   "name": "update_messagerule"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/me/mailfolders/inbox/messagerules('AQAAAJ5dZqA=')
 Content-type: application/json
 

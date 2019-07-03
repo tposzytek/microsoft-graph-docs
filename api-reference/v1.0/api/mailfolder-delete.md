@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "delete_mailfolder"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/me/mailFolders/{id}
 ```
 # [C#](#tab/csharp)

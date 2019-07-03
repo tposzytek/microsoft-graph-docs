@@ -58,7 +58,7 @@ Here is an example of the request.
   "name": "delete_calendargroup"
 }-->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/me/calendarGroups/{id}
 ```
 # [C#](#tab/csharp)

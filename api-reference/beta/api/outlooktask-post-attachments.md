@@ -58,7 +58,7 @@ Here is an example of the request.
   "name": "create_attachment_from_outlooktask"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/users/{id}/outlook/tasks/{id}/attachments
 Content-type: application/json
 Content-length: 142

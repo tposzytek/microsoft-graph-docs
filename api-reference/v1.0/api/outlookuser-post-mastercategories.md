@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_outlookcategory_from_outlookuser"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/me/outlook/masterCategories
 Content-type: application/json
 Content-Length: 70

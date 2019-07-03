@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_contact_from_user"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/contacts
 Content-type: application/json
 

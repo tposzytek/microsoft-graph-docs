@@ -62,7 +62,7 @@ Here is an example of the request.
   "name": "create_file_attachment_from_event"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/events('AAMkAGI1AAAt9AHjAAA=')/attachments
 Content-type: application/json
 Content-length: 151
@@ -195,7 +195,7 @@ The attachment points to a folder on OneDrive.
   "@odata.type": "microsoft.graph.referenceAttachment"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/events/AAMkAGE1M88AADUv0uAAAG=/attachments
 Content-type: application/json
 Content-length: 319

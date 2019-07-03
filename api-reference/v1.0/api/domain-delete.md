@@ -58,7 +58,7 @@ If successful, this method returns `204 No Content` response code. It does not r
   "sampleKeys": ["contoso.com"],
   "name": "delete_domain"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/domains/contoso.com
 ```
 # [C#](#tab/csharp)

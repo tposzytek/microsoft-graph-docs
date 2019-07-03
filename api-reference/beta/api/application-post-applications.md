@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_application_from_applications"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/applications
 Content-type: application/json
 Content-length: 67

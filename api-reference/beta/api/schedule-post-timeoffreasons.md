@@ -54,7 +54,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "schedule-post-timeoffreasons"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/teams/{teamId}/schedule/timeOffReasons
 Content-type: application/json
 

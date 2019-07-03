@@ -51,7 +51,7 @@ If successful, this method returns `201 Created` response code and [groupLifecyc
   "blockType": "request",
   "name": "create_grouplifecyclepolicy_from_group"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groupLifecyclePolicies
 Content-type: application/json
 Content-length: 125

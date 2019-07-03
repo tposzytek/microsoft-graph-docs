@@ -53,7 +53,7 @@ If successful, this method returns `201 Created` response code and [directoryRol
   "blockType": "request",
   "name": "create_directoryrole_from_directoryroles"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/directoryRoles
 Content-type: application/json
 

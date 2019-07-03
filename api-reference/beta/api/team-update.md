@@ -51,7 +51,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "update_team"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/beta/teams/{id}
 Content-type: application/json
 Content-length: 211

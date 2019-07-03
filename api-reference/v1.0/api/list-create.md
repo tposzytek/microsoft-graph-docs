@@ -40,7 +40,7 @@ Here is an example of how to create a new generic list.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "create-list", "scopes": "sites.readwrite.all" } -->
 
-```http
+```msgraph-interactive
 POST /sites/{site-id}/lists
 Content-Type: application/json
 

@@ -55,7 +55,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "participant-invite"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls/{id}/participants/invite
 Content-Type: application/json
 Content-Length: 464

@@ -94,7 +94,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "update_contact"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/me/contacts/{id}
 Content-type: application/json
 Content-length: 1977

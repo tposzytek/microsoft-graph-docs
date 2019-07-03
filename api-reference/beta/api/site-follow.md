@@ -53,7 +53,7 @@ The following example shows how to follow multiple sites.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "follow-site", "scopes": "sites.readwrite.all" } -->
 
-```http
+```msgraph-interactive
 POST /users/{user-id}/followedSites/add
 Content-Type: application/json
 

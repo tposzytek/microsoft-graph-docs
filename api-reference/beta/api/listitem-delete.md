@@ -50,7 +50,7 @@ Do not supply a request body with this method.
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "delete-item", "scopes": "files.readwrite" } -->
 
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/sites/{site-id}/lists/{list-id}/items/{item-id}
 ```
 # [C#](#tab/csharp)

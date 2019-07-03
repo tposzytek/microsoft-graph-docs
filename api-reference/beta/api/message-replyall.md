@@ -69,7 +69,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "message_replyall"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/AAMkADA1MTAAAH5JaKAAA=/replyAll
 Content-Type: application/json
 

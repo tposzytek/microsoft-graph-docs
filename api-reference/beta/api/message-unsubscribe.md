@@ -58,7 +58,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "message_unsubscribe"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/messages/{id}/unsubscribe
 ```
 # [C#](#tab/csharp)

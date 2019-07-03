@@ -57,7 +57,7 @@ If successful, this method returns a `204 No Content` response code and no respo
   "sampleKeys": ["contoso.com"],
   "name": "update_domain"
 }-->
-```http
+```msgraph-interactive
 PATCH https://graph.microsoft.com/v1.0/domains/contoso.com
 Content-type: application/json
 

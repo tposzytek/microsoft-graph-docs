@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_rangeborder_from_rangeformat"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/names/{name}/range/format/borders
 Content-type: application/json
 Content-length: 136

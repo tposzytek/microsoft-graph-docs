@@ -72,7 +72,7 @@ This sample request creates a subscription for notifications about new mail rece
   "name": "create_subscription_from_subscriptions"
 }-->
 
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/subscriptions
 Content-type: application/json
 

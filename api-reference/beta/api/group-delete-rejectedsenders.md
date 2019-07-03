@@ -49,7 +49,7 @@ If successful, this method returns `204 No Content` response code. It does not r
   "blockType": "request",
   "name": "remove_user_from_rejectedsenderslist_of_group"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/groups/{id}/rejectedSenders/$ref?$id=https://graph.microsoft.com/beta/users/{id}
 ```
 # [C#](#tab/csharp)
@@ -84,7 +84,7 @@ HTTP/1.1 204 No Content
   "blockType": "request",
   "name": "remove_group_from_rejectedsenderslist_of_group"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/beta/groups/{id}/rejectedSenders/$ref?$id=https://graph.microsoft.com/beta/groups/{other-group-id}
 ```
 # [C#](#tab/csharp)

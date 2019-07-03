@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_privilegedapproval_from_privilegedapproval"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedApproval
 Content-type: application/json
 Content-length: 180

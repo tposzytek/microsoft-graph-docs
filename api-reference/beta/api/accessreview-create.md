@@ -77,7 +77,7 @@ In the request body, supply a JSON representation of the [accessReview](../resou
   "blockType": "request",
   "name": "create_accessReview_from_accessReviews"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/accessReviews
 Content-type: application/json
 

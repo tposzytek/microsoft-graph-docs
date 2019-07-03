@@ -48,7 +48,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "create_scopedrolemembership_from_administrativeunit"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/administrativeUnits/{id}/scopedRoleMembers
 Content-type: application/json
 Content-length: 272

@@ -71,7 +71,7 @@ In the request body, supply a JSON representation of the [schemaExtension](../re
   "blockType": "request",
   "name": "create_schemaextension_from_schemaextensions_1"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/schemaExtensions
 Content-type: application/json
 
@@ -161,7 +161,7 @@ properties in the [schemaExtension](../resources/schemaextension.md) object. Mic
   "blockType": "request",
   "name": "create_schemaextension_from_schemaextensions_2"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/schemaExtensions
 Content-type: application/json
 

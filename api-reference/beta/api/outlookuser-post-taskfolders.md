@@ -48,7 +48,7 @@ The following example creates a task folder called Volunteer in the default task
   "blockType": "request",
   "name": "create_outlooktaskfolder_from_outlookuser"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/outlook/taskfolders 
 Content-type: application/json
 Content-length: 60

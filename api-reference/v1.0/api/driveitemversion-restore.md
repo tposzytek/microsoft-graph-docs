@@ -43,7 +43,7 @@ This example restores a version of a file identified by `{item-id}` and `{versio
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "restore-item-version", "scopes": "files.readwrite", "target": "action" } -->
 
-```http
+```msgraph-interactive
 POST /drives/{drive-id}/items/{item-id}/versions/{version-id}/restoreVersion
 ```
 # [C#](#tab/csharp)

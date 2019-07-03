@@ -47,7 +47,7 @@ If successful, this method returns `204 No Content` response code. It does not r
   "blockType": "request",
   "name": "delete_directoryobject"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/directoryObjects/{id}
 ```
 # [C#](#tab/csharp)

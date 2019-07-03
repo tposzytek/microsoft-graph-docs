@@ -54,7 +54,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "chart_setposition"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/setPosition
 Content-type: application/json
 Content-length: 66

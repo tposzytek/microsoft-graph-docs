@@ -54,7 +54,7 @@ If successful, this method returns a `204 No Content` response code. It does not
   "blockType": "request",
   "name": "updaterequest_governanceroleassignmentrequest"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/privilegedAccess/azureResources/roleAssignmentRequests/7c53453e-d5a4-41e0-8eb1-32d5ec8bfdee/updateRequest
 ```
 # [C#](#tab/csharp)

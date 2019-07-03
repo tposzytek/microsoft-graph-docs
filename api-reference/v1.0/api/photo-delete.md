@@ -46,7 +46,7 @@ Here is an example of the request.
   "blockType": "request",
 "name": "delete_photo"
 }-->
-```http
+```msgraph-interactive
 DELETE https://graph.microsoft.com/v1.0/users/{id|userPrincipalName}/photo
 ```
 # [C#](#tab/csharp)

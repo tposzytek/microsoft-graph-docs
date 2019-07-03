@@ -44,7 +44,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "group_resetunseencount"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/v1.0/groups/{id}/resetUnseenCount
 ```
 # [C#](#tab/csharp)

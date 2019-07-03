@@ -55,7 +55,7 @@ The following example shows the request.
   "blockType": "request",
   "name": "call-subscribeToTone"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/app/calls/{id}/subscribeToTone
 Content-Type: application/json
 Content-Length: 46

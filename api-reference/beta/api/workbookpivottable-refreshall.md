@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "workbookpivottable_refreshall"
 }-->
-```http
+```msgraph-interactive
 POST https://graph.microsoft.com/beta/drive/root/workbook/worksheets/{id}/pivotTables/refreshAll
 ```
 # [C#](#tab/csharp)
