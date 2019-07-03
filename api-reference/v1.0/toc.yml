@@ -63,6 +63,8 @@
         href: /graph/extensibility-open-users?context=graph/api/1.0
       - name: Use schema extensions (example)
         href: /graph/extensibility-schema-groups?context=graph/api/1.0
+    - name: Use Postman
+      href: use-postman.md
   - name: Migrate
     expanded: false
     items:
