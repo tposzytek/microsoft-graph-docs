@@ -7682,6 +7682,8 @@
           href: api/application-list-owners.md
         - name: Assign owner
           href: api/application-post-owners.md
+        - name: Add password
+          href: api/application-post-password.md
         - name: Application template
           href: resources/applicationtemplate.md
           items:

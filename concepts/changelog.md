@@ -11,6 +11,12 @@ This changelog covers what's changed in Microsoft Graph, including the v1.0 and 
 
 For details about known issues with Microsoft Graph APIs, see [Known issues](known-issues.md).
 
+## July 2019
+
+### Application APIs
+
+| Addition | Beta | Added the ability to autogenerate application [password credentials](/graph/api/application-post-password?view=graph-rest-beta). |
+
 ## June 2019
 
 ### Reports APIs
