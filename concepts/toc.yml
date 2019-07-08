@@ -370,12 +370,18 @@
         - name: Tasks
           displayname: Tasks
           items:
+          - name: Batch requests
+            href: sdks/tasks/batch-task.md
           - name: Download large files
             href: sdks/tasks/download-largefile-task.md
           - name: Working with errors
             href: sdks/tasks/errors-overview.md
+          - name: Iterate pages
+            href: sdks/tasks/iterate-pages-task.md
           - name: Send arbitrary requests
             href: sdks/tasks/send-httpclient-task.md
+          - name: Upload large files
+            href: sdks/tasks/upload-largefile-task.md
           - name: Working with collections
             href: sdks/tasks/using-collections-task.md
           - name: Using headers
