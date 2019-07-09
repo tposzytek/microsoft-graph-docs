@@ -1,5 +1,5 @@
 ---
-title: "Get search"
+title: "Get search" MOREAUTODO : Document this.
 description: "Retrieve the properties and relationships of search object."
 localization_priority: Normal
 author: "nmoreau"

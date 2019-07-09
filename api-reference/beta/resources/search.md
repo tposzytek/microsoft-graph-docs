@@ -1,5 +1,5 @@
 ---
-title: "search resource type"
+title: "search resource type" //NMOREAUTODO - Not sure we should have this one. We should inject this into the 
 description: "PROVIDE DESCRIPTION HERE"
 localization_priority: Normal
 author: "nmoreau"

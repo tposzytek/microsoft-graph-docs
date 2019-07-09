@@ -209,6 +209,8 @@
         href: outlook-immutable-id.md
     - name: Reports
       href: reportroot-concept-overview.md
+    - name: Search
+      href: search-concept-overview.md
     - name: Security
       items:
       - name: Overview
