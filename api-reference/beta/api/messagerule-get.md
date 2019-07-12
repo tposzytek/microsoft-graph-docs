@@ -50,7 +50,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_messagerule"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/mailfolders/inbox/messagerules('AQAAAJ5dZqA=')
 ```
 # [C#](#tab/csharp)

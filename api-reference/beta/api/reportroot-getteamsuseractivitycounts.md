@@ -85,7 +85,7 @@ The following is an example of the request.
   "name": "reportroot_getteamsuseractivitycounts_csv"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getTeamsUserActivityCounts(period='D7')?$format=text/csv
 ```
 # [C#](#tab/csharp)
@@ -144,7 +144,7 @@ The following is an example of the request.
   "name": "reportroot_getteamsuseractivitycounts_json"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getTeamsUserActivityCounts(period='D7')?$format=application/json
 ```
 # [C#](#tab/csharp)

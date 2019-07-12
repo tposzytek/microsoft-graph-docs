@@ -53,7 +53,7 @@ Here is an example of the request searching the current user's OneDrive
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "item_search", "tags": "service.graph" }-->
 
-```http
+```msgraph-interactive
 GET /me/drive/root/search(q='{search-query}')
 ```
 # [C#](#tab/csharp)
@@ -115,7 +115,7 @@ To broaden the search scope, use the **search** method on the [Drive](../resourc
 # [HTTP](#tab/http)
 <!-- { "blockType": "request", "name": "item_search_all", "tags": "service.graph" }-->
 
-```http
+```msgraph-interactive
 GET /me/drive/search(q='{search-query}')
 ```
 # [C#](#tab/csharp)

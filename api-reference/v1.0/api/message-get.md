@@ -61,7 +61,7 @@ Here is an example of the request.
   "sampleKeys": ["AAMkADhMGAAA="],
   "name": "get_message"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/messages/AAMkADhMGAAA=
 ```
 # [C#](#tab/csharp)
@@ -162,7 +162,7 @@ The next example uses a `$select` query parameter to get the Internet message he
   "sampleKeys": ["AAMkADhAAAW-VPeAAA="],
   "name": "get_message_headers"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/messages/AAMkADhAAAW-VPeAAA=/?$select=internetMessageHeaders
 ```
 # [C#](#tab/csharp)

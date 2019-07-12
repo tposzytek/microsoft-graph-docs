@@ -23,7 +23,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET me/drive/root/workbook/worksheets/{id}/range(address={address})/visibleView/range
 
 ```
@@ -47,7 +47,7 @@ Here is an example of the request.
   "isComposable": true,
   "name": "workbookrangeview_range"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/root/workbook/worksheets/{id}/range(address='A1:Z10')/visibleView/range
 ```
 # [C#](#tab/csharp)

@@ -83,7 +83,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "truncated": true,
   "@odata.type": "microsoft.graph.workbookRange"
 } -->
-```http
+```msgraph-interactive
 HTTP/1.1 200 OK
 Content-type: application/json
 Content-length: 157
@@ -108,7 +108,7 @@ Here is an example of the request.
   "name": "workbookrange_rowsBelow_nocount",
   "idempotent": true
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/root/workbook/worksheets/{id}/range/rowsBelow
 ```
 # [C#](#tab/csharp)

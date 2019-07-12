@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getOffice365GroupsActivityGroupCounts(period='{period_value}')
 ```
 
@@ -73,7 +73,7 @@ The following is an example of the request.
   "name": "reportroot_getoffice365groupsactivitygroupcounts"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getOffice365GroupsActivityGroupCounts(period='D7')
 ```
 # [C#](#tab/csharp)

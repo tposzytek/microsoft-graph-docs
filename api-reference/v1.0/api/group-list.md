@@ -66,7 +66,7 @@ The following is an example of the request.
   "blockType": "request",
   "name": "get_groups"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/groups
 ```
 # [C#](#tab/csharp)
@@ -177,7 +177,7 @@ This example uses a `$filter` query option to get those groups that have members
   "blockType": "request",
   "name": "get_groups_withlicenseerrors"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/groups?$filter=hasMembersWithLicenseErrors+eq+true&$select=id,displayName
 ```
 # [C#](#tab/csharp)

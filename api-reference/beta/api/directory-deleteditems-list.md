@@ -53,7 +53,7 @@ If successful, this method returns a `200 OK` response code and collection of [d
   "blockType": "request",
   "name": "get_deleteditems"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/directory/deleteditems/microsoft.graph.group
 ```
 # [C#](#tab/csharp)

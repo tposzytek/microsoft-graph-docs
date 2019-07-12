@@ -97,7 +97,7 @@ The following is an example of the request.
   "name": "reportroot_getonedriveusageaccountdetail_csv"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getOneDriveUsageAccountDetail(period='D7')?$format=text/csv
 ```
 # [C#](#tab/csharp)
@@ -157,7 +157,7 @@ The following is an example of the request.
   "name": "reportroot_getonedriveusageaccountdetail_json"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getOneDriveUsageAccountDetail(period='D7')?$format=application/json
 ```
 # [C#](#tab/csharp)

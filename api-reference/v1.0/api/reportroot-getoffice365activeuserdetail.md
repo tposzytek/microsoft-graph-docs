@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 # [HTTP](#tab/http)
 <!-- { "blockType": "samples" } --> 
 
-```http
+```msgraph-interactive
 GET /reports/getOffice365ActiveUserDetail(period='{period_value}')
 GET /reports/getOffice365ActiveUserDetail(date={date_value})
 ```
@@ -96,7 +96,7 @@ The following is an example of the request.
   "name": "reportroot_getoffice365activeuserdetail"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/reports/getOffice365ActiveUserDetail(period='D7')
 ```
 # [C#](#tab/csharp)

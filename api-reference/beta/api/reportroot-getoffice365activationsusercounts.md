@@ -79,7 +79,7 @@ The following is an example of the request.
   "name": "reportroot_getoffice365activationsusercounts_csv"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getOffice365ActivationsUserCounts?$format=text/csv
 ```
 # [C#](#tab/csharp)
@@ -139,7 +139,7 @@ The following example shows the request.
   "name": "reportroot_getoffice365activationsusercounts_json"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getOffice365ActivationsUserCounts?$format=application/json
 ```
 # [C#](#tab/csharp)

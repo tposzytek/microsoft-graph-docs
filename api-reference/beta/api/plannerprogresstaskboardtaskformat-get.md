@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_plannerprogresstaskboardtaskformat"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/planner/tasks/<id>/progressTaskBoardFormat
 ```
 # [C#](#tab/csharp)

@@ -62,7 +62,7 @@ The following is an example of the request.
   "name": "get_members"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/chats/{id}/members
 ```
 # [C#](#tab/csharp)

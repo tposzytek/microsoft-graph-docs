@@ -46,7 +46,7 @@ Here is an example of the request.
   "sampleKeys": ["inbox"],
   "name": "get_messagerules"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules
 ```
 # [C#](#tab/csharp)

@@ -52,7 +52,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_contacts"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/contactFolders/{id}/contacts
 ```
 # [C#](#tab/csharp)

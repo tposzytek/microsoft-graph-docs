@@ -96,7 +96,7 @@ The following is an example of the request.
   "name": "reportroot_getteamsdeviceusageuserdetail_csv"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getTeamsDeviceUsageUserDetail(period='D7')?$format=text/csv
 ```
 # [C#](#tab/csharp)
@@ -156,7 +156,7 @@ The following is an example of the request.
   "name": "reportroot_getteamsdeviceusageuserdetail_json"
 }-->
 
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/reports/getTeamsDeviceUsageUserDetail(period='D7')?$format=application/json
 ```
 # [C#](#tab/csharp)

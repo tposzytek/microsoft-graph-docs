@@ -49,7 +49,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_chartpointscollection"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/drive/items/{id}/workbook/worksheets/{id|name}/charts/{name}/series/{undefined}/points
 ```
 # [C#](#tab/csharp)

@@ -54,7 +54,7 @@ Here is a JSON representation of the resource.
   "blockType": "request",
   "name": "get_auditLogs"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/auditLogs
 ```
 # [C#](#tab/csharp)

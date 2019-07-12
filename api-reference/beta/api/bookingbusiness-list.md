@@ -55,7 +55,7 @@ The following example gets the Bookings businesses in a tenant.
   "blockType": "request",
   "name": "get_bookingbusinesses"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/bookingBusinesses
 ```
 # [C#](#tab/csharp)
@@ -108,7 +108,7 @@ The following example shows how to use the `query` parameter to get one or more 
   "blockType": "request",
   "name": "query_bookingbusinesses"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/beta/bookingBusinesses?query=Adventure
 ```
 # [C#](#tab/csharp)

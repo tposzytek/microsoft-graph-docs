@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 # [HTTP](#tab/http)
 <!-- { "blockType": "ignored" } -->
-```http
+```msgraph-interactive
 GET /workbook/names/{name}/range/entireColumn
 GET /workbook/worksheets/{id|name}/range(address='<address>')/entireColumn
 GET /workbook/tables/{id|name}/columns/{id|name}/range/entireColumn
@@ -49,7 +49,7 @@ Here is an example of the request.
   "isComposable": true,
   "name": "range_entirecolumn"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/drive/items/{id}/workbook/names/{name}/range/entireColumn
 ```
 # [C#](#tab/csharp)

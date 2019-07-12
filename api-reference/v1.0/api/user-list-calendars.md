@@ -62,7 +62,7 @@ Here is an example of the request.
   "blockType": "request",
   "name": "get_calendars"
 }-->
-```http
+```msgraph-interactive
 GET https://graph.microsoft.com/v1.0/me/calendars
 ```
 # [C#](#tab/csharp)
