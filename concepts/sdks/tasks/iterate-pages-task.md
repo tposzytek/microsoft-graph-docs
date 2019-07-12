@@ -2,7 +2,7 @@
 title: "Iterate across paged results"
 description: "Describes how you can control paging across a paged result set."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Page iteration

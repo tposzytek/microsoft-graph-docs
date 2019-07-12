@@ -2,7 +2,7 @@
 title: "Javascript client library overview"
 description: "Provides an overview of the Javascript client library."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Microsoft Graph Javascript client library overview

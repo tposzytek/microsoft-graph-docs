@@ -2,7 +2,7 @@
 title: "Working with request headers"
 description: "Contains examples of how to work with headers used by Microsoft Graph."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Working with headers

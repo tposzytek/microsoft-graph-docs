@@ -2,7 +2,7 @@
 title: "Download a large file from OneDrive"
 description: "Describes how you download a large file from OneDrive."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Download a large file from OneDrive

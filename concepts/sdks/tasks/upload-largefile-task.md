@@ -2,7 +2,7 @@
 title: "Upload large file task"
 description: "Describes how you can upload large files to OneDrive."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Upload large file task

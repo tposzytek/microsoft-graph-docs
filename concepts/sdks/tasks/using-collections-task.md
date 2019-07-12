@@ -2,7 +2,7 @@
 title: "Working with Microsoft Graph collections"
 description: "Contains an example of how to work with collection objects returned by Microsoft Graph."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Working with Microsoft Graph collections

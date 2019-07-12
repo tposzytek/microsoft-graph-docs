@@ -2,7 +2,7 @@
 title: "Choose a Microsoft Graph authentication provider"
 description: "Learn how to choose scenario-specific authentication providers for your application."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Choose a Microsoft Graph authentication provider based on OAuth flow

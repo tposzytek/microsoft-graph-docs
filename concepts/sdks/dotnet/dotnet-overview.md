@@ -2,7 +2,7 @@
 title: "Microsoft Graph .NET client library overview"
 description: "Provides an overview of the .Net client library."
 localization_priority: Normal
-author: microsoftgraph/sdk-contributors
+author: sdk-contributors
 ---
 
 # Microsoft Graph .NET client library overview
