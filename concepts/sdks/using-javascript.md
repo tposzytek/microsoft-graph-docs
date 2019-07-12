@@ -107,7 +107,7 @@ class MyCustomAuthenticationProvider implements AuthenticationProvider {
 
 ## Calling pattern
 
-All calls to Microsoft Graph are chained together starting with **.api()**, then chain [query parameters](./QueryParameters.md) and end with an [action](./Actions.md).
+All calls to Microsoft Graph are chained together starting with **.api()**, then chain query parameters and end with an action.
 
 ### Path supports the following formats
 
