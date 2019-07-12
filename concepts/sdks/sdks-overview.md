@@ -2,7 +2,7 @@
 title: "Microsoft Graph SDKs overview"
 description: "Describes the SDKs that are available, the platforms they support, and the value they provide to developers."
 localization_priority: Normal
-author: @microsoftgraph/sdk-contributors
+author: microsoftgraph/sdk-contributors
 ---
 
 # Microsoft Graph SDKs overview

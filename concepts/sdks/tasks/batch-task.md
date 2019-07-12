@@ -2,7 +2,7 @@
 title: "Batch requests"
 description: "Describes how you batch many requests into a single request using the SDK."
 localization_priority: Normal
-author: @microsoftgraph/sdk-contributors
+author: microsoftgraph/sdk-contributors
 ---
 
 # Batching

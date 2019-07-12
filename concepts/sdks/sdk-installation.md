@@ -2,7 +2,7 @@
 title: "Install the Microsoft Graph SDK"
 description: "Provides instructions for installing the C#, Java, Javascript, Objective-C, PHP, and Ruby Microsoft Graph SDKs."
 localization_priority: Normal
-author: @microsoftgraph/sdk-contributors
+author: microsoftgraph/sdk-contributors
 ---
 
 # Install the Microsoft Graph SDKs
