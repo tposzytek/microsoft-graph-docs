@@ -2,7 +2,7 @@
 title: "Use the HttpClient to send and retrieve Graph objects"
 description: "Contains an example of how to configure an HttpClient to work with Microsoft Graph."
 localization_priority: Normal
-author: MichaelMainer
+author: @microsoftgraph/sdk-contributors
 ---
 
 # Send HTTP requests with the native HttpClient

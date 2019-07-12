@@ -2,7 +2,7 @@
 title: "Choose a Microsoft Graph authentication provider"
 description: "Learn how to choose scenario-specific authentication providers for your application."
 localization_priority: Normal
-author: MichaelMainer
+author: @microsoftgraph/sdk-contributors
 ---
 
 # Choose a Microsoft Graph authentication provider based on OAuth flow
@@ -300,12 +300,12 @@ IGraphServiceClient graphClient =
 
 ```objc
 NSError *error = nil;
-MSALPublicClientApplication *publicClientApplication = [[MSALPublicClientApplication alloc] initWithClientId:@"INSERT-CLIENT-APP-ID" 
+MSALPublicClientApplication *publicClientApplication = [[MSALPublicClientApplication alloc] initWithClientId:@"INSERT-CLIENT-APP-ID"
 error:&error];
 
 MSALAuthenticationProviderOptions *authProviderOptions= [[MSALAuthenticationProviderOptions alloc] initWithScopes:<array-of-scopes-for-which-you-need-access-token>];
 
- MSALAuthenticationProvider *authenticationProvider = [[MSALAuthenticationProvider alloc] initWithPublicClientApplication:publicClientApplication 
+ MSALAuthenticationProvider *authenticationProvider = [[MSALAuthenticationProvider alloc] initWithPublicClientApplication:publicClientApplication
  andOptions:authProviderOptions];
 ```
 

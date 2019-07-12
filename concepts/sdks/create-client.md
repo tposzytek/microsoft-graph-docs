@@ -2,7 +2,7 @@
 title: "Create a Microsoft Graph client"
 description: "Describes how to create a client to use to make calls to Microsoft Graph. Includes how to set up authentication and select a sovereign cloud."
 localization_priority: Normal
-author: MichaelMainer
+author: @microsoftgraph/sdk-contributors
 ---
 
 # Create a Microsoft Graph client
@@ -68,10 +68,10 @@ IGraphServiceClient graphClient = GraphServiceClient
 ```objc
 // Create the authenticationProvider.
 NSError *error = nil;
-MSALPublicClientApplication *publicClientApplication = [[MSALPublicClientApplication alloc] initWithClientId:@"INSERT-CLIENT-APP-ID" 
+MSALPublicClientApplication *publicClientApplication = [[MSALPublicClientApplication alloc] initWithClientId:@"INSERT-CLIENT-APP-ID"
 error:&error];
 MSALAuthenticationProviderOptions *authProviderOptions= [[MSALAuthenticationProviderOptions alloc] initWithScopes:<array-of-scopes-for-which-you-need-access-token>];
- MSALAuthenticationProvider *authenticationProvider = [[MSALAuthenticationProvider alloc] initWithPublicClientApplication:publicClientApplication 
+ MSALAuthenticationProvider *authenticationProvider = [[MSALAuthenticationProvider alloc] initWithPublicClientApplication:publicClientApplication
  andOptions:authProviderOptions];
 
 // Create the client with the authenticationProvider and create a request to the /me resource.

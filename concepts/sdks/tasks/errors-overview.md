@@ -2,7 +2,7 @@
 title: "Errors in the Microsoft Graph client libraries"
 description: "Describes how to handle errors in the Microsoft Graph client libraries."
 localization_priority: Normal
-author: MichaelMainer
+author: @microsoftgraph/sdk-contributors
 ---
 
 # Errors in the Microsoft Graph client libraries

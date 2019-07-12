@@ -2,7 +2,7 @@
 title: "Iterate across paged results"
 description: "Describes how you can control paging across a paged result set."
 localization_priority: Normal
-author: MichaelMainer
+author: @microsoftgraph/sdk-contributors
 ---
 
 # Page iteration
@@ -13,9 +13,27 @@ Microsoft Graph queries can result in paged result sets. The Microsoft Graph SDK
 
 # [C#](#tab/CS)
 
-<!-- TODO -->
-
 ```csharp
+// Get an initial page results to populate the iterator.
+IUserEventsCollectionPage iUserEventsCollectionPage = await graphClient.Me
+                                                                       .Events
+                                                                       .Request()
+                                                                       .Top(2)
+                                                                       .GetAsync();
+
+// Create the callback to process each entity returned in the pages
+Func<Event,bool> processEachEvent = (e) =>
+{
+    Console.Writeline(e.Subject);
+    return true;
+};
+
+// Create the iterator with the specified type
+var eventPageIterator = PageIterator<Event>.CreatePageIterator(graphClient,
+                                                               iUserEventsCollectionPage,
+                                                               processEachEvent);
+
+await eventPageIterator.IterateAsync();
 
 ```
 
@@ -47,10 +65,54 @@ async function callingPattern() {
 
 # [C#](#tab/CS)
 
-<!-- TODO -->
+This example shows how to iterate over a delta query and resume iterating after
+the initial sync has completed.
 
 ```csharp
+// Get an initial page results to populate the iterator.
+var messagesDeltaCollectionPage = await graphClient.Me
+                                                    .MailFolders["inbox"]
+                                                    .Messages
+                                                    .Delta()
+                                                    .Request()
+                                                    .GetAsync();
 
+// Create the function to process each entity returned in the pages
+Func<Message, bool> processEachMessage = (e) =>
+{
+    Debug.WriteLine($"Message subject: {e.Subject}");
+    return true;
+};
+
+// This requires the dev to specify the generic type in the CollectionPage.
+var messagePageIterator = PageIterator<Message>.CreatePageIterator(graphClient,
+                                                messagesDeltaCollectionPage,
+                                                processEachMessage);
+
+await messagePageIterator.IterateAsync();
+
+var me = await graphClient.Me.Request().GetAsync();
+var recipients = new List<Recipient>()
+{
+    new Recipient()
+    {
+        EmailAddress = new EmailAddress()
+        {
+            Address = me.Mail
+        }
+    }
+};
+
+var message = new Message()
+{
+    Subject = "Message sent after deltatoken received.",
+    ToRecipients = recipients
+};
+await graphClient.Me.SendMail(message, true).Request().PostAsync();
+
+await Task.Delay(3000);
+
+await messagePageIterator.ResumeAsync();
 ```
 
 # [Javascript](#tab/Javascript)
