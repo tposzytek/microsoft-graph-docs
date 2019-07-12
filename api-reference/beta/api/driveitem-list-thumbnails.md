@@ -292,7 +292,7 @@ For example if your app needs thumbnails that are 300x400, it can request that s
 
 
 # [HTTP](#tab/http)
-<!-- { "name": "get-thumbnail-custom-size", "scopes": "files.read" } -->
+<!-- { "blockType": "request", "name": "get-thumbnail-custom-size", "scopes": "files.read" } -->
 
 ```msgraph-interactive
 GET /me/drive/items/{item-id}/thumbnails?select=c300x400_Crop
