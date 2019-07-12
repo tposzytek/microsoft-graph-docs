@@ -393,6 +393,8 @@
             href: sdks/dotnet/dotnet-faq.md
           - name: .NET overview
             href: sdks/dotnet/dotnet-overview.md
+        - name: Javascript
+          href: sdks/using-javascript.md
     - name: Resources
       expanded: true
       items:
