@@ -4101,6 +4101,16 @@
           href: api/channel-post.md
         - name: Get channel
           href: api/channel-get.md
+        - name: List tabs
+          href: api/teamstab-list.md
+        - name: Get tab
+          href: api/teamstab-get.md
+        - name: Update tab
+          href: api/teamstab-update.md
+        - name: Delete tab
+          href: api/teamstab-delete.md
+        - name: Add tab
+          href: api/teamstab-add.md
       - name: Apps
         href: resources/teamsapp.md
         items:
@@ -4118,16 +4128,6 @@
           href: api/teamsapp-update.md
         - name: Remove app from catalog
           href: api/teamsapp-delete.md
-        - name: List tabs
-          href: api/teamstab-list.md
-        - name: Get tab
-          href: api/teamstab-get.md
-        - name: Update tab
-          href: api/teamstab-update.md
-        - name: Delete tab
-          href: api/teamstab-delete.md
-        - name: Add tab
-          href: api/teamstab-add.md
       - name: Calendar
         href: resources/event.md
         items:

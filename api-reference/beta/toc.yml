@@ -9209,6 +9209,16 @@
           href: api/channel-post-messages.md
         - name: Reply to message
           href: api/channel-post-messagereply.md
+        - name: List tabs
+          href: api/teamstab-list.md
+        - name: Get tab
+          href: api/teamstab-get.md
+        - name: Add tab
+          href: api/teamstab-add.md
+        - name: Update tab
+          href: api/teamstab-update.md
+        - name: Delete tab
+          href: api/teamstab-delete.md
       - name: Chat
         href: resources/chat.md
         items:
@@ -9241,16 +9251,6 @@
           href: api/teamsapp-update.md
         - name: Remove app from catalog
           href: api/teamsapp-delete.md
-        - name: List tabs
-          href: api/teamstab-list.md
-        - name: Get tab
-          href: api/teamstab-get.md
-        - name: Add tab
-          href: api/teamstab-add.md
-        - name: Update tab
-          href: api/teamstab-update.md
-        - name: Delete tab
-          href: api/teamstab-delete.md
       - name: Chat message
         href: resources/chatmessage.md
         items:
